@@ -1350,7 +1350,6 @@ class ActionGetContactLayananKesehatan(Action):
         return "action_get_contact_layanan_kesehatan"
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict]:
-        
         kesehatan_name = next(tracker.get_latest_entity_values("kesehatan"), None)
 
         if kesehatan_name:
