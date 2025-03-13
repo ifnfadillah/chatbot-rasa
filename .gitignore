@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+env/
+
+# Cache files
+__pycache__/
+*.pyc
+
+# Model files
+models/
+*.pkl
+*.h5
+
+# Rasa specific
+.rasa/
+models/
+
+# Log files
+*.log
+
+# Data files yang besar
+data/*.csv
+data/*.json
