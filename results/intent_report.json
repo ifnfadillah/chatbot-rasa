@@ -1,0 +1,295 @@
+{
+  "tanya_situs_klk": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {
+      "tanya_situs_lokasi_kampung": 1,
+      "tanya_event_klk": 1
+    }
+  },
+  "tanya_kegiatan_event": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "tanya_rekomendasi_kuliner_berdasarkan_cuaca_event": {
+    "precision": 0.75,
+    "recall": 0.9,
+    "f1-score": 0.8181818181818182,
+    "support": 10,
+    "confused_with": {
+      "tanya_rekomendasi_kuliner_berdasarkan_cuaca": 1
+    }
+  },
+  "tanya_situs_lokasi_kampung": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "tanya_tujuan_event": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19,
+    "confused_with": {}
+  },
+  "tanya_kuliner_lokasi_event": {
+    "precision": 0.967741935483871,
+    "recall": 1.0,
+    "f1-score": 0.9836065573770492,
+    "support": 30,
+    "confused_with": {}
+  },
+  "tanya_tanggal_event": {
+    "precision": 0.9615384615384616,
+    "recall": 1.0,
+    "f1-score": 0.9803921568627451,
+    "support": 25,
+    "confused_with": {}
+  },
+  "tanya_event_lokasi_kampung": {
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1-score": 0.967741935483871,
+    "support": 16,
+    "confused_with": {
+      "tanya_kuliner_lokasi_event": 1
+    }
+  },
+  "tanya_general_kuliner": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "tanya_general_situs": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "tanya_contact_kampung": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "tanya_layanan_kesehatan_lokasi_kampung": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 8,
+    "confused_with": {}
+  },
+  "tanya_general_event": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung": {
+    "precision": 0.9,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.8571428571428572,
+    "support": 11,
+    "confused_with": {
+      "tanya_rekomendasi_kuliner_berdasarkan_cuaca": 2
+    }
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1-score": 0.967741935483871,
+    "support": 16,
+    "confused_with": {
+      "greet": 1
+    }
+  },
+  "tanya_jenis_gejala_layanan_kesehatan": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "tanya_general_klk": 1,
+      "tanya_kategori_layanan_kesehatan": 1
+    }
+  },
+  "tanya_sejarah_kampung": {
+    "precision": 0.9411764705882353,
+    "recall": 1.0,
+    "f1-score": 0.9696969696969697,
+    "support": 16,
+    "confused_with": {}
+  },
+  "tanya_lokasi_event": {
+    "precision": 0.9666666666666667,
+    "recall": 1.0,
+    "f1-score": 0.983050847457627,
+    "support": 29,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 7,
+    "confused_with": {}
+  },
+  "tanya_lokasi_situs": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "tanya_layanan_masyarakat_kampung": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "tanya_jam_operasional_layanan_kesehatan": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "tanya_layanan_kesehatan_klk": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 5,
+    "confused_with": {
+      "tanya_layanan_kesehatan_lokasi_kampung": 1
+    }
+  },
+  "tanya_lokasi_kelurahan_kampung": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "tanya_sejarah_event": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "tanya_contact_event": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "tanya_sejarah_klk": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 7,
+    "confused_with": {
+      "tanya_sejarah_kampung": 1
+    }
+  },
+  "tanya_general_kampung": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "tanya_lokasi_layanan_kesehatan": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 7,
+    "confused_with": {
+      "tanya_kategori_layanan_kesehatan": 1,
+      "tanya_jam_operasional_layanan_kesehatan": 1
+    }
+  },
+  "tanya_kuliner_lokasi_kampung": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "tanya_general_klk": {
+    "precision": 0.8333333333333334,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8695652173913043,
+    "support": 11,
+    "confused_with": {
+      "tanya_layanan_kesehatan_klk": 1
+    }
+  },
+  "tanya_rekomendasi_kuliner_berdasarkan_cuaca": {
+    "precision": 0.75,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.7199999999999999,
+    "support": 13,
+    "confused_with": {
+      "tanya_rekomendasi_kuliner_berdasarkan_cuaca_event": 3,
+      "tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung": 1
+    }
+  },
+  "tanya_kategori_layanan_kesehatan": {
+    "precision": 0.8181818181818182,
+    "recall": 1.0,
+    "f1-score": 0.9,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori_layanan_kesehatan_lokasi_kampung": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "tanya_event_klk": {
+    "precision": 0.8571428571428571,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.75,
+    "support": 9,
+    "confused_with": {
+      "tanya_general_klk": 1,
+      "tanya_lokasi_event": 1
+    }
+  },
+  "accuracy": 0.9541484716157205,
+  "macro avg": {
+    "precision": 0.9445620123378321,
+    "recall": 0.9342669235526376,
+    "f1-score": 0.935786911214862,
+    "support": 458
+  },
+  "weighted avg": {
+    "precision": 0.9564270225358572,
+    "recall": 0.9541484716157205,
+    "f1-score": 0.9530757098890172,
+    "support": 458
+  },
+  "micro avg": {
+    "precision": 0.9541484716157205,
+    "recall": 0.9541484716157205,
+    "f1-score": 0.9541484716157205,
+    "support": 458
+  }
+}

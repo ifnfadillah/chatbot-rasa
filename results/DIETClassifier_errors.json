@@ -1,0 +1,720 @@
+[
+  {
+    "text": "agenda festival tahunan klk",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 7,
+        "end": 15,
+        "confidence_entity": 0.9679151773452759,
+        "value": "festival",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "festival apa yang ada di kampung cempluk?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 40,
+        "value": "kampung cempluk",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 25,
+        "end": 40,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 25,
+        "end": 40,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 25,
+        "end": 40,
+        "confidence_entity": 0.9853990077972412,
+        "value": "kampung cempluk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "rekomendasi kuliner yang cocok saat hujan di kampung cempluk?",
+    "entities": [
+      {
+        "start": 36,
+        "end": 41,
+        "value": "hujan",
+        "entity": "cuaca"
+      },
+      {
+        "start": 45,
+        "end": 60,
+        "value": "kampung cempluk",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 45,
+        "end": 60,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 45,
+        "end": 60,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 36,
+        "end": 41,
+        "value": "hujan",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 45,
+        "end": 60,
+        "confidence_entity": 0.9996347427368164,
+        "value": "kampung cempluk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "lokasi situs candi badut?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 24,
+        "value": "candi badut",
+        "entity": "situs"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "situs",
+        "start": 13,
+        "end": 24,
+        "value": "candi badut",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "situs",
+        "start": 13,
+        "end": 24,
+        "value": "candi badut",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "situs",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.5061762928962708,
+        "value": "situs",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "situs",
+        "start": 13,
+        "end": 24,
+        "confidence_entity": 0.9984190464019775,
+        "value": "candi badut",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "saya kena  gejala pusing yang parah, dimana saya bisa berobat?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "pusing",
+        "entity": "gejala"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gejala",
+        "start": 18,
+        "end": 24,
+        "value": "pusing",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "klinik untuk mengobati sakit tenggorokan?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 40,
+        "value": "sakit tenggorokan",
+        "entity": "gejala"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 6,
+        "value": "klinik",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 6,
+        "value": "klinik",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "gejala",
+        "start": 23,
+        "end": 40,
+        "value": "sakit tenggorokan",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9544724225997925,
+        "value": "klinik",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "gejala",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.9291495084762573,
+        "value": "sakit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dimana tempat periksa untuk sakit kepala?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 40,
+        "value": "sakit kepala",
+        "entity": "gejala"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gejala",
+        "start": 28,
+        "end": 40,
+        "value": "sakit kepala",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "gejala",
+        "start": 28,
+        "end": 33,
+        "confidence_entity": 0.7840056419372559,
+        "value": "sakit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "apa itu es dawet?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "es dawet",
+        "entity": "kuliner"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kuliner",
+        "start": 8,
+        "end": 16,
+        "value": "es dawet",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "kuliner",
+        "start": 8,
+        "end": 16,
+        "value": "es dawet",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "deskripsikan apa itu sego empok?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "value": "sego empok",
+        "entity": "kuliner"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "saya mengalami batuk parah, dimana bisa berobat?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "batuk",
+        "entity": "gejala"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gejala",
+        "start": 15,
+        "end": 20,
+        "value": "batuk",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "makanan yang cocok saat hujan di kampung keramik dinoyo",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 33,
+        "end": 55,
+        "value": "kampung keramik dinoyo",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 33,
+        "end": 55,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 33,
+        "end": 55,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 24,
+        "end": 29,
+        "value": "hujan",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997888207435608,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.9994450211524963,
+        "value": "hujan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 33,
+        "end": 55,
+        "confidence_entity": 0.9992889165878296,
+        "value": "kampung keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "apa itu nasi pecel?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "nasi pecel",
+        "entity": "kuliner"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kuliner",
+        "start": 8,
+        "end": 18,
+        "value": "nasi pecel",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kuliner",
+        "start": 8,
+        "end": 18,
+        "value": "nasi pecel",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "rekomendasi minuman saat gerah",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "gerah",
+        "entity": "cuaca"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuaca",
+        "start": 25,
+        "end": 30,
+        "value": "gerah",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "kategori",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.9997541308403015,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tempat periksa untuk flu?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 24,
+        "value": "flu",
+        "entity": "gejala"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gejala",
+        "start": 21,
+        "end": 24,
+        "value": "flu",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "event",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.46871131658554077,
+        "value": "flu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "rumah sakit yang menangani sakit perut?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 38,
+        "value": "sakit perut",
+        "entity": "gejala"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 11,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 11,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "gejala",
+        "start": 27,
+        "end": 38,
+        "value": "sakit perut",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9685873985290527,
+        "value": "rumah sakit",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "gejala",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.5776458978652954,
+        "value": "sakit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "apa itu cenil?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "cenil",
+        "entity": "kuliner"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kuliner",
+        "start": 8,
+        "end": 13,
+        "value": "cenil",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "kuliner",
+        "start": 8,
+        "end": 13,
+        "value": "cenil",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "kampung",
+        "start": 8,
+        "end": 13,
+        "confidence_entity": 0.685620903968811,
+        "value": "cenil",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "lokasi situs situs punden kalisongo?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 35,
+        "value": "situs punden kalisongo",
+        "entity": "situs"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "situs",
+        "start": 13,
+        "end": 35,
+        "value": "situs punden kalisongo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "situs",
+        "start": 13,
+        "end": 35,
+        "value": "situs punden kalisongo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "situs",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.8403046131134033,
+        "value": "situs",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "situs",
+        "start": 13,
+        "end": 35,
+        "confidence_entity": 0.9983808994293213,
+        "value": "situs punden kalisongo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tempat berobat untuk sakit gigi?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "value": "sakit gigi",
+        "entity": "gejala"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gejala",
+        "start": 21,
+        "end": 31,
+        "value": "sakit gigi",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "gejala",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9699918627738953,
+        "value": "sakit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuaca",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.6449477672576904,
+        "value": "gigi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "maag saya kambuh, dimana saya harus periksa?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "maag",
+        "entity": "gejala"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gejala",
+        "start": 0,
+        "end": 4,
+        "value": "maag",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  }
+]

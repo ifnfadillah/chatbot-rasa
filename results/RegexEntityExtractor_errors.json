@@ -1,0 +1,3871 @@
+[
+  {
+    "text": "ada minuman apa saja yang ada di event festival kampung budoyo?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 39,
+        "end": 62,
+        "value": "festival kampung budoyo",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 62,
+        "value": "festival kampung budoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 62,
+        "value": "festival kampung budoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9998433589935303,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 62,
+        "confidence_entity": 0.9997037053108215,
+        "value": "festival kampung budoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ada makanan apa saja yang ada di event bazar kampung kuliner?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 39,
+        "end": 60,
+        "value": "bazar kampung kuliner",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 60,
+        "value": "bazar kampung kuliner",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 60,
+        "value": "bazar kampung kuliner",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9998542070388794,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 60,
+        "confidence_entity": 0.9996640682220459,
+        "value": "bazar kampung kuliner",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "minuman yang dijual di event festival keramik dinoyo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 52,
+        "value": "festival keramik dinoyo",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 52,
+        "value": "festival keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 52,
+        "value": "festival keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.999757707118988,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 52,
+        "confidence_entity": 0.9991154074668884,
+        "value": "festival keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "minuman yang dijual di event festival kampung budoyo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 52,
+        "value": "festival kampung budoyo",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 52,
+        "value": "festival kampung budoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 52,
+        "value": "festival kampung budoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997265934944153,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 52,
+        "confidence_entity": 0.999656081199646,
+        "value": "festival kampung budoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan yang dijual di event festival kali brantas?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 50,
+        "value": "festival kali brantas",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 50,
+        "value": "festival kali brantas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 50,
+        "value": "festival kali brantas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997267127037048,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 50,
+        "confidence_entity": 0.9994043111801147,
+        "value": "festival kali brantas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "minuman yang dijual di event festival kali brantas?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 50,
+        "value": "festival kali brantas",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 50,
+        "value": "festival kali brantas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 50,
+        "value": "festival kali brantas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9996815919876099,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 50,
+        "confidence_entity": 0.9994049072265625,
+        "value": "festival kali brantas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan apa yang cocok saat dingin di event festival kampung budoyo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "value": "dingin",
+        "entity": "cuaca"
+      },
+      {
+        "start": 44,
+        "end": 67,
+        "value": "festival kampung budoyo",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 44,
+        "end": 67,
+        "value": "festival kampung budoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 44,
+        "end": 67,
+        "value": "festival kampung budoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 28,
+        "end": 34,
+        "value": "dingin",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997770190238953,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.9996113181114197,
+        "value": "dingin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 44,
+        "end": 67,
+        "confidence_entity": 0.999713122844696,
+        "value": "festival kampung budoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "puskemas terdekat di kampung keramik dinoyo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "puskemas",
+        "entity": "kategori"
+      },
+      {
+        "start": 21,
+        "end": 43,
+        "value": "kampung keramik dinoyo",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 21,
+        "end": 43,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 21,
+        "end": 43,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.929706335067749,
+        "value": "puskemas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "kampung",
+        "start": 21,
+        "end": 43,
+        "confidence_entity": 0.999476969242096,
+        "value": "kampung keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan apa saja yang ada di kampung keramik dinoyo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 51,
+        "value": "kampung keramik dinoyo",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 51,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 51,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9995958209037781,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 51,
+        "confidence_entity": 0.9996007084846497,
+        "value": "kampung keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "minuman apa saja yang ada di kampung cempluk?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 44,
+        "value": "kampung cempluk",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 44,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 44,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9996145963668823,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 44,
+        "confidence_entity": 0.9996730089187622,
+        "value": "kampung cempluk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "rekomendasi makanan untuk cuaca sekarang",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "makanan",
+        "entity": "kategori"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.9998314380645752,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan apa yang cocok saat ini?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997391104698181,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "klinik untuk mengobati sakit tenggorokan?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 40,
+        "value": "sakit tenggorokan",
+        "entity": "gejala"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 6,
+        "value": "klinik",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 6,
+        "value": "klinik",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "gejala",
+        "start": 23,
+        "end": 40,
+        "value": "sakit tenggorokan",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9544724225997925,
+        "value": "klinik",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "gejala",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.9291495084762573,
+        "value": "sakit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dimana lokasi puskesmas sumbersari?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 34,
+        "value": "puskesmas sumbersari",
+        "entity": "kesehatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 14,
+        "end": 23,
+        "value": "puskesmas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 14,
+        "end": 34,
+        "value": "puskesmas sumbersari",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 14,
+        "end": 23,
+        "value": "puskesmas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 14,
+        "end": 34,
+        "confidence_entity": 0.9868104457855225,
+        "value": "puskesmas sumbersari",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "jam buka rumah sakit umum bri medika",
+    "entities": [
+      {
+        "start": 9,
+        "end": 36,
+        "value": "rumah sakit umum bri medika",
+        "entity": "kesehatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 9,
+        "end": 20,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 9,
+        "end": 36,
+        "value": "rumah sakit umum bri medika",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 9,
+        "end": 20,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 9,
+        "end": 36,
+        "confidence_entity": 0.9922863245010376,
+        "value": "rumah sakit umum bri medika",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ada minuman apa saja yang ada di event festival kali brantas?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 39,
+        "end": 60,
+        "value": "festival kali brantas",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 60,
+        "value": "festival kali brantas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 60,
+        "value": "festival kali brantas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.999760091304779,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 60,
+        "confidence_entity": 0.9996730089187622,
+        "value": "festival kali brantas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan yang dijual di event festival kampung cempluk?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 53,
+        "value": "festival kampung cempluk",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 53,
+        "value": "festival kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 38,
+        "end": 53,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 53,
+        "value": "festival kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 38,
+        "end": 53,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9998537302017212,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 53,
+        "confidence_entity": 0.9996229410171509,
+        "value": "festival kampung cempluk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "apa rekomendasi makanan saat mendung di event festival kali brantas?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "value": "mendung",
+        "entity": "cuaca"
+      },
+      {
+        "start": 46,
+        "end": 67,
+        "value": "festival kali brantas",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 46,
+        "end": 67,
+        "value": "festival kali brantas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 46,
+        "end": 67,
+        "value": "festival kali brantas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 29,
+        "end": 36,
+        "value": "mendung",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9994214773178101,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 29,
+        "end": 36,
+        "confidence_entity": 0.9973437190055847,
+        "value": "mendung",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 46,
+        "end": 67,
+        "confidence_entity": 0.9996554851531982,
+        "value": "festival kali brantas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan apa saja yang ada di kampung sumbersari?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 47,
+        "value": "kampung sumbersari",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 47,
+        "value": "kampung sumbersari",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 47,
+        "value": "kampung sumbersari",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997729659080505,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 47,
+        "confidence_entity": 0.9995589852333069,
+        "value": "kampung sumbersari",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "minuman apa saja yang ada di kampung sumbersari?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 47,
+        "value": "kampung sumbersari",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 47,
+        "value": "kampung sumbersari",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 47,
+        "value": "kampung sumbersari",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997746348381042,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 47,
+        "confidence_entity": 0.9995461106300354,
+        "value": "kampung sumbersari",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "minuman yang tersedia di kampung keramik dinoyo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 25,
+        "end": 47,
+        "value": "kampung keramik dinoyo",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 25,
+        "end": 47,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 25,
+        "end": 47,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997850060462952,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 25,
+        "end": 47,
+        "confidence_entity": 0.9993107318878174,
+        "value": "kampung keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "saya ingin tahu makanan yang cocok saat malam di kampung ketawanggede?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "value": "malam",
+        "entity": "cuaca"
+      },
+      {
+        "start": 49,
+        "end": 69,
+        "value": "kampung ketawanggede",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 49,
+        "end": 69,
+        "value": "kampung ketawanggede",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 49,
+        "end": 69,
+        "value": "kampung ketawanggede",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 40,
+        "end": 45,
+        "value": "malam",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9997836947441101,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 40,
+        "end": 45,
+        "confidence_entity": 0.9897881746292114,
+        "value": "malam",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 49,
+        "end": 69,
+        "confidence_entity": 0.9997991919517517,
+        "value": "kampung ketawanggede",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "lokasi klinik universitas brawijaya?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 35,
+        "value": "klinik universitas brawijaya",
+        "entity": "kesehatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 7,
+        "end": 13,
+        "value": "klinik",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 7,
+        "end": 35,
+        "value": "klinik universitas brawijaya",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 7,
+        "end": 13,
+        "value": "klinik",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 7,
+        "end": 35,
+        "confidence_entity": 0.9908592104911804,
+        "value": "klinik universitas brawijaya",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "dimana lokasi rumah sakit islam unisma?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 38,
+        "value": "rumah sakit islam unisma",
+        "entity": "kesehatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 14,
+        "end": 25,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 14,
+        "end": 38,
+        "value": "rumah sakit islam unisma",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 14,
+        "end": 25,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 14,
+        "end": 38,
+        "confidence_entity": 0.9930235147476196,
+        "value": "rumah sakit islam unisma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "jam operasional puskesmas sumbersari",
+    "entities": [
+      {
+        "start": 16,
+        "end": 36,
+        "value": "puskesmas sumbersari",
+        "entity": "kesehatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 16,
+        "end": 25,
+        "value": "puskesmas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 16,
+        "end": 36,
+        "value": "puskesmas sumbersari",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 16,
+        "end": 25,
+        "value": "puskesmas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 16,
+        "end": 36,
+        "confidence_entity": 0.9876822829246521,
+        "value": "puskesmas sumbersari",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ada makanan apa saja yang ada di event festival kampung budoyo?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 39,
+        "end": 62,
+        "value": "festival kampung budoyo",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 62,
+        "value": "festival kampung budoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 62,
+        "value": "festival kampung budoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9998526573181152,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 62,
+        "confidence_entity": 0.9994993209838867,
+        "value": "festival kampung budoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ada makanan apa saja yang ada di event festival kali brantas?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 39,
+        "end": 60,
+        "value": "festival kali brantas",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 60,
+        "value": "festival kali brantas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 60,
+        "value": "festival kali brantas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9998706579208374,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 60,
+        "confidence_entity": 0.9992697834968567,
+        "value": "festival kali brantas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ada minuman apa saja yang ada di event bazar kampung kuliner?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 39,
+        "end": 60,
+        "value": "bazar kampung kuliner",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 60,
+        "value": "bazar kampung kuliner",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 60,
+        "value": "bazar kampung kuliner",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9998464584350586,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 60,
+        "confidence_entity": 0.999427080154419,
+        "value": "bazar kampung kuliner",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan yang dijual di event festival keramik dinoyo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 52,
+        "value": "festival keramik dinoyo",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 52,
+        "value": "festival keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 52,
+        "value": "festival keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9998142123222351,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 52,
+        "confidence_entity": 0.9994776844978333,
+        "value": "festival keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "minuman yang dijual di event festival kampung cempluk?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 53,
+        "value": "festival kampung cempluk",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 53,
+        "value": "festival kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 38,
+        "end": 53,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 53,
+        "value": "festival kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 38,
+        "end": 53,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9998040795326233,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 53,
+        "confidence_entity": 0.9997180104255676,
+        "value": "festival kampung cempluk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "minuman yang dijual di event bazar kampung kuliner?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 50,
+        "value": "bazar kampung kuliner",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 50,
+        "value": "bazar kampung kuliner",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 50,
+        "value": "bazar kampung kuliner",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997408986091614,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 50,
+        "confidence_entity": 0.9995552897453308,
+        "value": "bazar kampung kuliner",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "saya ingin tahu minuman yang cocok saat siang di event festival kampung cempluk?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "value": "siang",
+        "entity": "cuaca"
+      },
+      {
+        "start": 55,
+        "end": 79,
+        "value": "festival kampung cempluk",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 55,
+        "end": 79,
+        "value": "festival kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 64,
+        "end": 79,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 55,
+        "end": 79,
+        "value": "festival kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 64,
+        "end": 79,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 40,
+        "end": 45,
+        "value": "siang",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9997697472572327,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 40,
+        "end": 45,
+        "confidence_entity": 0.9966846108436584,
+        "value": "siang",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 55,
+        "end": 79,
+        "confidence_entity": 0.999541163444519,
+        "value": "festival kampung cempluk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan apa saja yang ada di kampung ketawanggede?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 49,
+        "value": "kampung ketawanggede",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 49,
+        "value": "kampung ketawanggede",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 49,
+        "value": "kampung ketawanggede",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997040629386902,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 49,
+        "confidence_entity": 0.9996659755706787,
+        "value": "kampung ketawanggede",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "rekomendasi makanan di kampung ketawanggede untuk cuaca sekarang",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 23,
+        "end": 43,
+        "value": "kampung ketawanggede",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 23,
+        "end": 43,
+        "value": "kampung ketawanggede",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 23,
+        "end": 43,
+        "value": "kampung ketawanggede",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.9998811483383179,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 23,
+        "end": 43,
+        "confidence_entity": 0.9996715784072876,
+        "value": "kampung ketawanggede",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "rekomendasi makanan yang cocok untuk cuaca saat ini di kampung cempluk?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "value": "kampung cempluk",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 55,
+        "end": 70,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 55,
+        "end": 70,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.9998854398727417,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 55,
+        "end": 70,
+        "confidence_entity": 0.9995619654655457,
+        "value": "kampung cempluk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "deskripsikan apa itu sego empok?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "value": "sego empok",
+        "entity": "kuliner"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "makanan apa yang cocok saat dingin saat ini?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "value": "dingin",
+        "entity": "cuaca"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuaca",
+        "start": 28,
+        "end": 34,
+        "value": "dingin",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9996798038482666,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.9982962012290955,
+        "value": "dingin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "minuman yang pas untuk sore?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "value": "sore",
+        "entity": "cuaca"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuaca",
+        "start": 23,
+        "end": 27,
+        "value": "sore",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997506737709045,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.4657767713069916,
+        "value": "sore",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dimana lokasi rumah sakit universitas brawijaya?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 47,
+        "value": "rumah sakit universitas brawijaya",
+        "entity": "kesehatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 14,
+        "end": 25,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 14,
+        "end": 47,
+        "value": "rumah sakit universitas brawijaya",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 14,
+        "end": 25,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 14,
+        "end": 47,
+        "confidence_entity": 0.9899793863296509,
+        "value": "rumah sakit universitas brawijaya",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "dimana lokasi rumah sakit umum bri medika",
+    "entities": [
+      {
+        "start": 14,
+        "end": 41,
+        "value": "rumah sakit umum bri medika",
+        "entity": "kesehatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 14,
+        "end": 25,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 14,
+        "end": 41,
+        "value": "rumah sakit umum bri medika",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 14,
+        "end": 25,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 14,
+        "end": 41,
+        "confidence_entity": 0.9912603497505188,
+        "value": "rumah sakit umum bri medika",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "jam buka rumah sakit universitas brawijaya",
+    "entities": [
+      {
+        "start": 9,
+        "end": 42,
+        "value": "rumah sakit universitas brawijaya",
+        "entity": "kesehatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 9,
+        "end": 20,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 9,
+        "end": 42,
+        "value": "rumah sakit universitas brawijaya",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 9,
+        "end": 20,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 9,
+        "end": 42,
+        "confidence_entity": 0.9908451437950134,
+        "value": "rumah sakit universitas brawijaya",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ada makanan apa saja yang ada di event festival kampung cempluk?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 39,
+        "end": 63,
+        "value": "festival kampung cempluk",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 63,
+        "value": "festival kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 48,
+        "end": 63,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 63,
+        "value": "festival kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 48,
+        "end": 63,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9998045563697815,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 63,
+        "confidence_entity": 0.9996793270111084,
+        "value": "festival kampung cempluk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ada minuman apa saja yang ada di event festival kampung cempluk?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 39,
+        "end": 63,
+        "value": "festival kampung cempluk",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 63,
+        "value": "festival kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 48,
+        "end": 63,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 63,
+        "value": "festival kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 48,
+        "end": 63,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9998168349266052,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 63,
+        "confidence_entity": 0.9996813535690308,
+        "value": "festival kampung cempluk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan yang dijual di event festival kampung budoyo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 52,
+        "value": "festival kampung budoyo",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 52,
+        "value": "festival kampung budoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 52,
+        "value": "festival kampung budoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997230172157288,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 52,
+        "confidence_entity": 0.9997262358665466,
+        "value": "festival kampung budoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "berikan rekomendasi makanan saat malam di event festival keramik dinoyo?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "value": "malam",
+        "entity": "cuaca"
+      },
+      {
+        "start": 48,
+        "end": 71,
+        "value": "festival keramik dinoyo",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 48,
+        "end": 71,
+        "value": "festival keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 48,
+        "end": 71,
+        "value": "festival keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 33,
+        "end": 38,
+        "value": "malam",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.9992819428443909,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.997768759727478,
+        "value": "malam",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 48,
+        "end": 71,
+        "confidence_entity": 0.9988775849342346,
+        "value": "festival keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan apa saja yang ada di kampung cempluk?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 44,
+        "value": "kampung cempluk",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 44,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 44,
+        "value": "kampung cempluk",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9996912479400635,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 44,
+        "confidence_entity": 0.9997835755348206,
+        "value": "kampung cempluk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan yang dijual di kampung ketawanggede?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 23,
+        "end": 43,
+        "value": "kampung ketawanggede",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 23,
+        "end": 43,
+        "value": "kampung ketawanggede",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 23,
+        "end": 43,
+        "value": "kampung ketawanggede",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997246861457825,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 23,
+        "end": 43,
+        "confidence_entity": 0.9998564720153809,
+        "value": "kampung ketawanggede",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan yang cocok saat hujan di kampung keramik dinoyo",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 33,
+        "end": 55,
+        "value": "kampung keramik dinoyo",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 33,
+        "end": 55,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 33,
+        "end": 55,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 24,
+        "end": 29,
+        "value": "hujan",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9997888207435608,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.9994450211524963,
+        "value": "hujan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 33,
+        "end": 55,
+        "confidence_entity": 0.9992889165878296,
+        "value": "kampung keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "berikan rekomendasi minuman saat siang di kampung keramik dinoyo?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "value": "siang",
+        "entity": "cuaca"
+      },
+      {
+        "start": 42,
+        "end": 64,
+        "value": "kampung keramik dinoyo",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 42,
+        "end": 64,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 42,
+        "end": 64,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 33,
+        "end": 38,
+        "value": "siang",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.9996718168258667,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.9993141889572144,
+        "value": "siang",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 42,
+        "end": 64,
+        "confidence_entity": 0.9993122816085815,
+        "value": "kampung keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "rekomendasi minuman saat gerah",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "gerah",
+        "entity": "cuaca"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuaca",
+        "start": 25,
+        "end": 30,
+        "value": "gerah",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "kategori",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.9997541308403015,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "apa rekomendasi makanan saat hujan?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "value": "hujan",
+        "entity": "cuaca"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuaca",
+        "start": 29,
+        "end": 34,
+        "value": "hujan",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9996732473373413,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.9993670582771301,
+        "value": "hujan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "rumah sakit yang menangani sakit perut?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 38,
+        "value": "sakit perut",
+        "entity": "gejala"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 11,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 11,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "gejala",
+        "start": 27,
+        "end": 38,
+        "value": "sakit perut",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9685873985290527,
+        "value": "rumah sakit",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "gejala",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.5776458978652954,
+        "value": "sakit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "lokasi puskesmas sumbersari?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 27,
+        "value": "puskesmas sumbersari",
+        "entity": "kesehatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 7,
+        "end": 16,
+        "value": "puskesmas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 7,
+        "end": 27,
+        "value": "puskesmas sumbersari",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 7,
+        "end": 16,
+        "value": "puskesmas",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 7,
+        "end": 27,
+        "confidence_entity": 0.9955311417579651,
+        "value": "puskesmas sumbersari",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "jam operasional klinik daqu sehat",
+    "entities": [
+      {
+        "start": 16,
+        "end": 33,
+        "value": "klinik daqu sehat",
+        "entity": "kesehatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 16,
+        "end": 22,
+        "value": "klinik",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 16,
+        "end": 33,
+        "value": "klinik daqu sehat",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 16,
+        "end": 22,
+        "value": "klinik",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 16,
+        "end": 33,
+        "confidence_entity": 0.9934337139129639,
+        "value": "klinik daqu sehat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ada makanan apa saja yang ada di event festival keramik dinoyo?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 39,
+        "end": 62,
+        "value": "festival keramik dinoyo",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 62,
+        "value": "festival keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 62,
+        "value": "festival keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9997569918632507,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 62,
+        "confidence_entity": 0.9991933703422546,
+        "value": "festival keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ada minuman apa saja yang ada di event festival keramik dinoyo?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 39,
+        "end": 62,
+        "value": "festival keramik dinoyo",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 62,
+        "value": "festival keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 62,
+        "value": "festival keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9996893405914307,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 39,
+        "end": 62,
+        "confidence_entity": 0.9991951584815979,
+        "value": "festival keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan yang dijual di event bazar kampung kuliner?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 50,
+        "value": "bazar kampung kuliner",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 50,
+        "value": "bazar kampung kuliner",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 50,
+        "value": "bazar kampung kuliner",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9996775388717651,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event",
+        "start": 29,
+        "end": 50,
+        "confidence_entity": 0.9996247291564941,
+        "value": "bazar kampung kuliner",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "minuman apa saja yang ada di kampung ketawanggede?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 49,
+        "value": "kampung ketawanggede",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 49,
+        "value": "kampung ketawanggede",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 49,
+        "value": "kampung ketawanggede",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9996108412742615,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 49,
+        "confidence_entity": 0.9998313188552856,
+        "value": "kampung ketawanggede",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "minuman apa saja yang ada di kampung keramik dinoyo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "minuman",
+        "entity": "kategori"
+      },
+      {
+        "start": 29,
+        "end": 51,
+        "value": "kampung keramik dinoyo",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 51,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 51,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9996414184570312,
+        "value": "minuman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 29,
+        "end": 51,
+        "confidence_entity": 0.9996762275695801,
+        "value": "kampung keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "makanan apa yang cocok saat dingin di kampung keramik dinoyo?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "value": "dingin",
+        "entity": "cuaca"
+      },
+      {
+        "start": 38,
+        "end": 60,
+        "value": "kampung keramik dinoyo",
+        "entity": "kampung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kampung",
+        "start": 38,
+        "end": 60,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 38,
+        "end": 60,
+        "value": "kampung keramik dinoyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 28,
+        "end": 34,
+        "value": "dingin",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9996780157089233,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.9989582300186157,
+        "value": "dingin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kampung",
+        "start": 38,
+        "end": 60,
+        "confidence_entity": 0.9997385144233704,
+        "value": "kampung keramik dinoyo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "apa makanan terbaik untuk siang?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "makanan",
+        "entity": "kategori"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "siang",
+        "entity": "cuaca"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuaca",
+        "start": 26,
+        "end": 31,
+        "value": "siang",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9996739625930786,
+        "value": "makanan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuaca",
+        "start": 26,
+        "end": 31,
+        "confidence_entity": 0.9992114305496216,
+        "value": "siang",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tempat klinik daqu sehat?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 24,
+        "value": "klinik daqu sehat",
+        "entity": "kesehatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 7,
+        "end": 13,
+        "value": "klinik",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 7,
+        "end": 24,
+        "value": "klinik daqu sehat",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 7,
+        "end": 13,
+        "value": "klinik",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 7,
+        "end": 24,
+        "confidence_entity": 0.9939648509025574,
+        "value": "klinik daqu sehat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "jam operasional rumah sakit islam unisma",
+    "entities": [
+      {
+        "start": 16,
+        "end": 40,
+        "value": "rumah sakit islam unisma",
+        "entity": "kesehatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kategori",
+        "start": 16,
+        "end": 27,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 16,
+        "end": 40,
+        "value": "rumah sakit islam unisma",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kategori",
+        "start": 16,
+        "end": 27,
+        "value": "rumah sakit",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "kesehatan",
+        "start": 16,
+        "end": 40,
+        "confidence_entity": 0.9860323667526245,
+        "value": "rumah sakit islam unisma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,777 @@
+version: "3.1"
+
+nlu:
+
+#DATA DEFAULT
+- intent: greet
+  examples: |
+    - hai
+    - halo
+    - hallo
+    - hi
+    - hey
+    - hai kaboo
+    - halo kaboo
+    - hai kaboo
+    - halo kaboo
+
+- intent: affirm
+  examples: |
+    - baik
+    - iya
+    - oke
+    - setuju
+
+- intent: deny
+  examples: |
+    - no
+    - bukan
+
+- intent: goodbye
+  examples: |
+    - sampai jumpa
+    - bye
+    - tidak ada lagi
+    - tidak
+    - sudah cukup
+    - cukup
+    - terima kasih
+    - ok terima kasih
+    - sampai ketemu lagi
+    - good bye
+    - sampai jumpa lagi 
+    - terima kasih informasinya
+    - cukup sekian
+    - sudah cukup informasinya
+    - ok bye
+    - bye bye
+
+
+#DATA KLK
+- synonym: "Kampung Lingkar Kampus"
+  examples: |
+    - KLK
+    - klk
+
+- intent: tanya_general_klk
+  examples: |
+    - apa itu program kampung lingkar kampus?
+    - apa itu program klk?
+    - apa itu kampung lingkar kampus?
+    - jelaskan tentang program kampung lingkar kampus
+    - pengertian program kampung lingkar kampus
+    - ceritakan tentang klk
+    - apa itu yang dimaksud dengan klk
+    - jelaskan tentang klk
+    - program klk itu apa
+    - kampung lingkar kampus itu program apa
+    - klk itu program apa sih
+
+- intent: tanya_sejarah_klk
+  examples: |
+    - bagaimana sejarah adanya kampung lingkar kampus?
+    - sejarah dari klk
+    - ceritakan awal mula terbentuknya klk
+    - latar belakang terbentuknya kampung lingkar kampus?
+    - sejarah dari kampung lingkar kampus
+    - ceritakan sejarah klk
+    - sejarah terbentuknya klk
+
+- intent: tanya_event_klk
+  examples: | 
+    - sebutkan event-event yang diadakan di sekitar 
+    - ada event-event apa di klk
+    - event apa yang diselenggarakan klk
+    - deretan event yang di sekitar kampus universitas brawijaya
+    - event-event kampung lingkar kampus
+    - event klk
+    - agenda festival tahunan klk 
+    - event-event klk
+    - event apa saja di sekitar kampus universitas brawijaya?
+
+- intent: tanya_situs_klk
+  examples: | 
+    - ada situs-situs apa saja di sekitar?
+    - apa saja situs yang ada di sekitar kampus universitas brawijaya?
+    - ada cagar budaya apa saja di klk?
+    - apa cagar budaya yang ada di klk?
+    - apa saja peninggalan purbakala yang ada di klk?
+    - ada situs-situs apa saja di klk?
+
+- intent: tanya_layanan_kesehatan_klk
+  examples: | 
+    - apa saja layanan kesehatan yang ada di sekitar kampung lingkar kampus?
+    - apa saja fasilitas kesehatan yang ada di kampung lingkar kampus?
+    - layanan kesehatan yang ada di kampung lingkar kampus?
+    - ada layanan kesehatan apa saja di sekitar kampung lingkar kampus?
+    - layanan kesehatan di klk
+
+- intent: tanya_contact_klk
+  examples: | 
+    - informasi seputar kampung lingkar kampus?
+    - dimana saya bisa mendapatkan informasi seputar program klk?
+    - bagaimana cara mendapatkan informasi seputar klk?
+    - apa media sosial kampung lingkar kampus
+
+#DATA EVENT OR FESTIVAL
+- intent: tanya_general_event
+  examples: |
+    - jelaskan tentang event [festival kampung budoyo](event)
+    - jelaskan tentang event [bazar kampung kuliner](event)
+    - jelaskan tentang event [festival keramik dinoyo](event)
+    - jelaskan tentang event [festival kali brantas](event)
+    - jelaskan tentang event [festival kampung cempluk](event)
+    - apa itu event [festival kampung budoyo](event)
+    - apa itu event [bazar kampung kuliner](event)
+    - apa itu event [festival keramik dinoyo](event)
+    - apa itu event [festival kali brantas](event)
+    - apa itu event [festival kampung cempluk](event)
+    - bisa ceritakan tentang event [festival kampung budoyo](event)
+    - bisa ceritakan tentang event [bazar kampung kuliner](event)
+    - bisa ceritakan tentang event [festival keramik dinoyo](event)
+    - bisa ceritakan tentang event [festival kali brantas](event)
+    - bisa ceritakan tentang event [festival kampung cempluk](event)
+    - apa itu pengertian dari event [festival kampung cempluk](event)
+    - pengertian event [bazar kampung kuliner](event)
+
+- intent: tanya_sejarah_event
+  examples: | 
+    - sejarah dari event [festival kampung budoyo](event)
+    - sejarah dari event [bazar kampung kuliner](event)
+    - sejarah dari event [festival keramik dinoyo](event)
+    - sejarah dari event [festival kali brantas](event)
+    - sejarah dari event [festival kampung cempluk](event)
+    - apa latar belakang adanya event [festival kali brantas](event)?
+    - apa latar belakang adanya event [festival kampung budoyo](event)?
+    - apa latar belakang adanya event [bazar kampung kuliner](event)?
+    - apa latar belakang adanya event [festival keramik dinoyo](event)?
+    - apa latar belakang adanya event [festival kampung cempluk](event)?
+    - asal usul adanya event [festival kampung cempluk](event)?
+    - asal usul adanya event [bazar kampung kuliner](event)?
+    - asal usul adanya event [festival kampung budoyo](event)?
+    - asal usul adanya event [festival kali brantas](event)?
+    - asal usul adanya event [festival keramik dinoyo](event)?
+    - bagaimana sejarah dari event [festival kampung budoyo](event)
+    - bagaimana sejarah dari event [festival kali brantas](event)
+    - bagaimana sejarah dari event [festival kampung cempluk](event)
+    - bagaimana sejarah dari event [bazar kampung kuliner](event)
+    - bagaimana sejarah dari event [festival keramik dinoyo](event)
+    - latarbelakang adanya event [festival keramik dinoyo](event)?
+    - latarbelakang adanya event [festival kampung budoyo](event)?
+    - latarbelakang adanya event [bazar kampung kuliner](event)?
+    - latarbelakang adanya event [festival kali brantas](event)?
+    - latarbelakang adanya event [festival kampung cempluk](event)?
+
+- intent: tanya_tujuan_event
+  examples: | 
+    - tujuan event [festival kampung budoyo](event)
+    - tujuan event [bazar kampung kuliner](event)
+    - tujuan event [festival keramik dinoyo](event)
+    - tujuan event [festival kali brantas](event)
+    - tujuan event [festival kampung cempluk](event)
+    - apa tujuan dari event [festival keramik dinoyo](event)
+    - apa tujuan dari event [festival kampung budoyo](event)
+    - apa tujuan dari event [bazar kampung kuliner](event)
+    - apa tujuan dari event [festival keramik dinoyo](event)
+    - apa tujuan dari event [festival kampung cempluk](event)
+    - apa tujuan adanya event [festival kali brantas](event)
+    - apa tujuan adanya event [festival kampung budoyo](event)
+    - apa tujuan adanya event [bazar kampung kuliner](event)
+    - apa tujuan adanya event [festival keramik dinoyo](event)
+    - apa tujuan adanya event [festival kampung cempluk](event)
+    - tujuan penyelenggaraan event [bazar kampung kuliner](event)
+    - tujuan penyelenggaraan event [festival kampung budoyo](event)
+    - tujuan penyelenggaraan event [festival kali brantas](event)
+    - tujuan penyelenggaraan event [festival keramik dinoyo](event)
+    - tujuan penyelenggaraan event [festival kampung cempluk](event)
+
+- intent: tanya_tanggal_event
+  examples: |
+    - kapan event [festival kampung budoyo](event) diselenggarakan?
+    - kapan event [bazar kampung kuliner](event) diselenggarakan?
+    - kapan event [festival keramik dinoyo](event) diselenggarakan?
+    - kapan event [festival kali brantas](event) diselenggarakan?
+    - kapan event [festival kampung cempluk](event) diselenggarakan?
+    - berikan tanggal event [festival kampung budoyo](event)
+    - berikan tanggal event [festival keramik dinoyo](event)
+    - berikan tanggal event [bazar kampung kuliner](event)
+    - berikan tanggal event [festival kali brantas](event)
+    - berikan tanggal event [festival kampung cempluk](event)
+    - tanggal event [festival kampung budoyo](event) diselenggarakan?
+    - tanggal event [bazar kampung kuliner](event) diselenggarakan?
+    - tanggal event [festival keramik dinoyo](event) diselenggarakan?
+    - tanggal event [festival kali brantas](event) diselenggarakan?
+    - tanggal event [festival kampung cempluk](event) diselenggarakan?
+    - kapan event [festival kali brantas](event)?
+    - kapan event [festival kampung budoyo](event)?
+    - kapan event [bazar kampung kuliner](event)?
+    - kapan event [festival keramik dinoyo](event)?
+    - kapan event [festival kampung cempluk](event)? 
+    - tanggal berapa event [bazar kampung kuliner](event) diselenggarakan?
+    - tanggal berapa event [festival kampung budoyo](event) diselenggarakan?
+    - tanggal berapa event [festival kali brantas](event) diselenggarakan?
+    - tanggal berapa event [festival keramik dinoyo](event) diselenggarakan?
+    - tanggal berapa event [festival kampung cempluk](event) diselenggarakan?
+
+- intent: tanya_lokasi_event
+  examples: |
+    - lokasi event [festival kampung budoyo](event) diadakan?
+    - lokasi event [bazar kampung kuliner](event) diadakan?
+    - lokasi event [festival keramik dinoyo](event) diadakan?
+    - lokasi event [festival kali brantas](event) diadakan?
+    - lokasi event [festival kampung cempluk](event) diadakan?
+    - dimana event [festival kali brantas](event) diadakan?
+    - dimana event [festival kampung budoyo](event) diadakan?
+    - dimana event [bazar kampung kuliner](event) diadakan?
+    - dimana event [festival kampung cempluk](event) diadakan?
+    - dimana lokasi event [festival kampung budoyo](event) diadakan?
+    - dimana lokasi event [festival keramik dinoyo](event) diadakan?
+    - dimana lokasi event [bazar kampung kuliner](event) diadakan?
+    - dimana lokasi event [festival kali brantas](event) diadakan?
+    - dimana lokasi event [festival kampung cempluk](event) diadakan?
+    - dimana tempat event [festival kali brantas](event)?
+    - dimana tempat event [festival kampung budoyo](event)?
+    - dimana tempat event [bazar kampung kuliner](event)?
+    - dimana tempat event [festival keramik dinoyo](event)?
+    - dimana tempat event [festival kampung cempluk](event)
+    - dimana event [bazar kampung kuliner](event) diadakan?
+    - [festival kampung cempluk](event) diadakan dimana?
+    - [festival kampung budoyo](event) diadakan dimana?
+    - [festival kali brantas](event) diadakan dimana?
+    - [festival keramik dinoyo](event) diadakan dimana?
+    - [bazar kampung kuliner](event) diadakan dimana?
+    - lokasi event [festival kampung budoyo](event)
+    - lokasi event [festival keramik dinoyo](event)
+    - lokasi event [bazar kampung kuliner](event)
+    - lokasi event [festival kali brantas](event)
+    - lokasi event [festival kampung cempluk](event)
+
+- intent: tanya_kegiatan_event
+  examples: |
+    - ada kegiatan apa saja di event [festival kampung budoyo](event)?
+    - acara apa saja yang ada di event [festival keramik dinoyo](event)?
+    - acara apa saja yang ada di event [bazar kampung kuliner](event)?
+    - kegiatan apa saja yang dapat diikuti di event [festival kali brantas](event)?
+    - kegiatan apa yang diadakan di event [festival kampung cempluk](event)?
+    - ada kegiatan apa saja di event [festival keramik dinoyo](event)?
+
+- intent: tanya_kuliner_lokasi_event
+  examples: |
+    - ada kuliner apa saja di event [festival kampung budoyo](event)?
+    - ada kuliner apa saja di event [festival keramik dinoyo](event)?
+    - ada kuliner apa saja di event [festival kali brantas](event)?
+    - ada kuliner apa saja di event [festival kampung cempluk](event)?
+    - ada kuliner apa saja di event [bazar kampung kuliner](event)?
+    - ada [makanan](kategori) apa saja yang ada di event [festival kampung budoyo](event)?
+    - ada [minuman](kategori) apa saja yang ada di event [festival kampung budoyo](event)?
+    - ada [makanan](kategori) apa saja yang ada di event [festival keramik dinoyo](event)?
+    - ada [minuman](kategori) apa saja yang ada di event [festival keramik dinoyo](event)?
+    - ada [makanan](kategori) apa saja yang ada di event [festival kali brantas](event)?
+    - ada [minuman](kategori) apa saja yang ada di event [festival kali brantas](event)?
+    - ada [makanan](kategori) apa saja yang ada di event [festival kampung cempluk](event)?
+    - ada [minuman](kategori) apa saja yang ada di event [festival kampung cempluk](event)?
+    - ada [makanan](kategori) apa saja yang ada di event [bazar kampung kuliner](event)?
+    - ada [minuman](kategori) apa saja yang ada di event [bazar kampung kuliner](event)?
+    - kuliner apa yang tersedia di event [festival kampung cempluk](event)?
+    - kuliner apa yang tersedia di event [festival keramik dinoyo](event)?
+    - kuliner apa yang tersedia di event [festival kampung budoyo](event)?
+    - kuliner apa yang tersedia di event [bazar kampung kuliner](event)?
+    - kuliner apa yang tersedia di event [festival kali brantas](event)?  
+    - [makanan](kategori) yang dijual di event [festival keramik dinoyo](event)?
+    - [minuman](kategori) yang dijual di event [festival keramik dinoyo](event)?
+    - [makanan](kategori) yang dijual di event [festival kampung budoyo](event)?
+    - [minuman](kategori) yang dijual di event [festival kampung budoyo](event)?
+    - [makanan](kategori) yang dijual di event [festival kali brantas](event)?
+    - [minuman](kategori) yang dijual di event [festival kali brantas](event)?
+    - [makanan](kategori) yang dijual di event [festival kampung cempluk](event)?
+    - [minuman](kategori) yang dijual di event [festival kampung cempluk](event)?
+    - [makanan](kategori) yang dijual di event [bazar kampung kuliner](event)?
+    - [minuman](kategori) yang dijual di event [bazar kampung kuliner](event)?
+
+- intent: tanya_rekomendasi_kuliner_berdasarkan_cuaca_event
+  examples: |
+    - kuliner apa yang cocok saat [panas](cuaca) seperti sekarang di event [festival kampung budoyo](event)?
+    - kuliner apa yang cocok saat [dingin](cuaca) di event [bazar kampung kuliner](event)?
+    - [makanan](kategori) apa yang cocok saat [dingin](cuaca) di event [festival kampung budoyo](event)?
+    - rekomendasi kuliner yang cocok saat [hujan](cuaca) di event [bazar kampung kuliner](event)?
+    - berikan rekomendasi [makanan](kategori) saat [malam](cuaca) di event [festival keramik dinoyo](event)?
+    - saya ingin tahu [minuman](kategori) yang cocok saat [siang](cuaca) di event [festival kampung cempluk](event)?
+    - apa rekomendasi [makanan](kategori) saat [mendung](cuaca) di event [festival kali brantas](event)?
+    - rekomendasi kuliner yang cocok untuk cuaca saat ini di event [festival kampung budoyo](event)?
+    - kuliner apa yang cocok saat ini di event [festival kampung cempluk](event)?
+    - berikan rekomendasi kuliner untuk cuaca sekarang di event [festival kampung cempluk](event)
+
+- intent: tanya_contact_event
+  examples: |
+    - bagaimana cara mendapatkan informasi seputar event [festival kampung budoyo](event)?
+    - media sosial event [festival kampung cempluk](event)?
+    - apa media sosial event [festival kampung budoyo](event)?
+    - dimana saya bisa mendapatkan info event [bazar kampung kuliner](event)?
+    - bagaimana cara mendapatkan informasi event [festival kali brantas](event)?
+    - dimana saya bisa mendapatkan informasi event [festival keramik dinoyo](event)?
+    - dimana saya bisa mendapatkan update event [bazar kampung kuliner](event)?
+    - update terbaru event [festival kampung cempluk](event)?
+
+# DATA KAMPUNG
+- synonym: "kampung ketawanggede"
+  examples: |
+    - ketawanggede
+    - kampung watugong
+    - watugong
+
+- synonym: "kampung sumbersari"
+  examples: |
+    - sumbersari
+
+- synonym: "kampung keramik dinoyo"
+  examples: |
+    - kampung dinoyo
+    - kampung keramik
+    - dinoyo
+
+- synonym: "kampung cempluk"
+  examples: |
+    - kampung kalisongo
+    - kalisongo
+
+- intent: tanya_general_kampung
+  examples: | 
+    - apa itu [kampung ketawanggede](kampung)?
+    - apa itu [kampung sumbersari](kampung)?
+    - apa itu [kampung keramik dinoyo](kampung)?
+    - apa itu [kampung cempluk](kampung)?
+    - deskripsi [kampung keramik dinoyo](kampung)
+    - deskripsi [kampung ketawanggede](kampung)
+    - deskripsi [kampung sumbersari](kampung)
+    - deskripsi [kampung cempluk](kampung)
+    - [kampung cempluk](kampung)
+    - [kampung ketawanggede](kampung)
+    - [kampung sumbersari](kampung)
+    - [kampung keramik dinoyo](kampung)
+
+- intent: tanya_sejarah_kampung
+  examples: |
+    - bagaimana sejarah dari [kampung ketawanggede](kampung)?
+    - bagaimana sejarah dari [kampung cempluk](kampung)?
+    - bagaimana sejarah dari [kampung keramik dinoyo](kampung)?
+    - bagaimana sejarah dari [kampung sumbersari](kampung)?
+    - sejarah dari [kampung sumbersari](kampung)?
+    - sejarah dari [kampung watugong](kampung)?
+    - sejarah dari [kampung keramik dinoyo](kampung)
+    - sejarah dari [kampung cempluk](kampung)
+    - ceritakan asal usul dari [kampung ketawanggede](kampung)?
+    - ceritakan asal usul dari [kampung cempluk](kampung)?
+    - ceritakan asal usul dari [kampung keramik dinoyo](kampung)?
+    - ceritakan asal usul dari [kampung sumbersari](kampung)?
+    - apa yang melatarbelakangi adanya [kampung keramik dinoyo](kampung)?
+    - apa yang melatarbelakangi adanya [kampung ketawanggede](kampung)?
+    - apa yang melatarbelakangi adanya [kampung cempluk](kampung)?
+    - apa yang melatarbelakangi adanya [kampung sumbersari](kampung)?
+
+- intent: tanya_layanan_masyarakat_kampung
+  examples: |
+    - bagaimana layanan masyarakat di [kampung ketawanggede](kampung)?  
+    - bagaimana layanan masyarakat di [kampung keramik dinoyo](kampung)?
+    - bagaimana layanan masasyarakat di [kampung cempluk](kampung)?
+    - bagaimana layanan masyarakat di [kampung sumbersari](kampung)?
+    - apa layanan masyarakat di [kampung keramik dinoyo](kampung)?
+    - apa layanan masyarakat di [kampung ketawanggede](kampung)?
+    - apa layanan masyarakat di [kampung cempluk](kampung)?
+    - apa layanan masyarakat di [kampung sumbersari](kampung)?
+    - bagaimana layanan mengurus administrasi di [kampung cempluk](kampung)?
+    - bagaimana layanan mengurus administrasi di [kampung ketawanggede](kampung)?
+    - bagaimana layanan mengurus administrasi di [kampung keramik dinoyo](kampung)?
+    - bagaimana layanan mengurus administrasi di [kampung sumbersari](kampung)?
+    - cara mengurus administrasi layanan masyarakat di [kampung sumbersari](kampung)?
+    - cara mengurus administrasi layanan masyarakat di [kampung ketawanggede](kampung)?
+    - cara mengurus administrasi layanan masyarakat di [kampung keramik dinoyo](kampung)?
+    - cara mengurus administrasi layanan masyarakat di [kampung cempluk](kampung)?
+
+- intent: tanya_layanan_kesehatan_lokasi_kampung
+  examples: |
+    - layanan kesehatan di [kampung ketawanggede](kampung)?
+    - layanan kesehatan di [kampung cempluk](kampung)?
+    - layanan kesehatan di [kampung sumbersari](kampung)?
+    - layanan kesehatan di [kampung keramik dinoyo](kampung)?
+    - ada layanan kesehatan apa saja di [kampung cempluk](kampung)?
+    - ada layanan kesehatan apa saja di [kampung ketawanggede](kampung)?
+    - ada layanan kesehatan apa saja di [kampung keramik dinoyo](kampung)?
+    - ada layanan kesehatan apa saja di [kampung sumbersari](kampung)?
+
+- intent: tanya_kategori_layanan_kesehatan_lokasi_kampung
+  examples: |
+    - dimana [rumah sakit](kategori) di [kampung ketawanggede](kampung)?  
+    - dimana [puskesmas](kategori) di [kampung ketawanggede](kampung)?
+    - dimana [klinik](kategori) di [kampung ketawanggede](kampung)?
+    - dimana [klinik](kategori) di [kampung keramik dinoyo](kampung)?
+    - dimana [puskesmas](kategori) di [kampung keramik dinoyo](kampung)?
+    - dimana [rumah sakit](kategori) di [kampung keramik dinoyo](kampung)?
+    - dimana [puskesmas](kategori) di [kampung sumbersari](kampung)?
+    - dimana [klinik](kategori) di [kampung sumbersari](kampung)?
+    - dimana [rumah sakit](kategori) di [kampung sumbersari](kampung)?
+    - dimana [puskesmas](kategori) di [kampung cempluk](kampung)?
+    - dimana [klinik](kategori) di [kampung cempluk](kampung)?
+    - dimana [rumah sakit](kategori) di [kampung cempluk](kampung)?
+    - apakah ada [puskesmas](kategori) di [kampung ketawanggede](kampung)?
+    - apakah ada [puskesmas](kategori) di [kampung sumbersari](kampung)?
+    - apakah ada [puskesmas](kategori) di [kampung keramik dinoyo](kampung)?
+    - apakah ada [puskesmas](kategori) di [kampung cempluk](kampung)?
+    - apakah ada [klinik](kategori) di [kampung ketawanggede](kampung)? 
+    - apakah ada [klinik](kategori) di [kampung sumbersari](kampung)?
+    - apakah ada [klinik](kategori) di [kampung keramik dinoyo](kampung)? 
+    - apakah ada [klinik](kategori) di [kampung cempluk](kampung)?
+    - apakah ada [rumah sakit](kategori) di [kampung ketawanggede](kampung)?
+    - apakah ada [rumah sakit](kategori) di [kampung sumbersari](kampung)?
+    - apakah ada [rumah sakit](kategori) di [kampung keramik dinoyo](kampung)?
+    - apakah ada [rumah sakit](kategori) di [kampung cempluk](kampung)?
+    - [klinik](kategori) terdekat di [kampung cempluk](kampung)?
+    - [puskemas](kategori) terdekat di [kampung keramik dinoyo](kampung)?
+    - [rumah sakit](kategori) terdekat di [kampung ketawanggede](kampung)?
+    - [klinik](kategori) terdekat di [kampung sumbersari](kampung)?
+
+- intent: tanya_jenis_gejala_layanan_kesehatan_lokasi_kampung
+  examples: |
+    - tempat periksa [demam](gejala) di [kampung ketawanggede](kampung)?
+    - saya mengalami gejala [batuk](gejala) dimana saya harus periksa di [kampung keramik dinoyo](kampung)?
+    - saya mengalami gejala [pusing](gejala) dimana saya harus periksa di [kampung cempluk](kampung)?
+    - saya mengalami gejala [sakit kepala](gejala) dimana saya harus periksa di [kampung sumbersari](kampung)?
+
+- intent: tanya_situs_lokasi_kampung
+  examples: |
+    - ada situs apa saja di [kampung ketawanggede](kampung)?
+    - ada situs apa saja di [kampung keramik dinoyo](kampung)?
+    - ada situs apa saja di [kampung watugong](kampung)?
+    - ada cagar budaya atau situs apa saja di [kampung cempluk](kampung)?
+    - ada cagar budaya atau situs apa saja di [kampung sumbersari](kampung)?
+    - ada cagar budaya atau situs apa saja di [kampung keramik dinoyo](kampung)?
+    - ada cagar budaya atau situs apa saja di [kampung ketawanggede](kampung)?
+    - ada peninggalan apa saja di [kampung ketawanggede](kampung)?
+    - ada peninggalan apa saja di [kampung keramik dinoyo](kampung)?
+    - ada peninggalan apa saja di [kampung sumbersari](kampung)?
+    - ada peninggalan apa saja di [kampung cempluk](kampung)?
+
+- intent: tanya_event_lokasi_kampung
+  examples: |
+    - ada event budaya apa saja di [kampung ketawanggede](kampung)?
+    - ada event budaya apa saja di [kampung sumbersari](kampung)?
+    - ada event budaya apa saja di [kampung keramik dinoyo](kampung)?
+    - ada event budaya apa saja di [kampung cempluk](kampung)?
+    - ada acara kebudayaan apa saja di [kampung cempluk](kampung)?
+    - ada acara kebudayaan apa saja di [kampung keramik dinoyo](kampung)?
+    - ada acara kebudayaan apa saja di [kampung ketawanggede](kampung)?
+    - ada acara kebudayaan apa saja [kampung sumbersari](kampung)?
+    - kebudayaan apa saja di [kampung keramik dinoyo](kampung)?
+    - kebudayaan apa saja di [kampung ketawanggede](kampung)?
+    - kebudayaan apa saja di [kampung sumbersari](kampung)?
+    - kebudayaan apa saja di [kampung cempluk](kampung)?
+    - festival apa yang ada di [kampung cempluk](kampung)?
+    - festival apa yang ada di [kampung keramik dinoyo](kampung)?
+    - festival apa yang ada di [kampung ketawanggede](kampung)?
+    - festival apa yang ada di [kampung sumbersari](kampung)?
+
+- intent: tanya_kuliner_lokasi_kampung
+  examples: |
+    - ada beragam kuliner apa saja di [kampung ketawanggede](kampung)?
+    - ada beragam kuliner apa saja di [kampung keramik dinoyo](kampung)?
+    - ada beragam kuliner apa saja di [kampung cempluk](kampung)?
+    - ada beragam kuliner apa saja di [kampung sumbersari](kampung)?
+    - kuliner apa di [kampung cempluk](kampung)?
+    - kuliner apa di [kampung keramik dinoyo](kampung)?
+    - kuliner apa di [kampung ketawanggede](kampung)?
+    - kuliner apa di [kampung sumbersari](kampung)?
+    - [makanan](kategori) apa saja yang ada di [kampung ketawanggede](kampung)?
+    - [minuman](kategori) apa saja yang ada di [kampung ketawanggede](kampung)?
+    - [makanan](kategori) apa saja yang ada di [kampung keramik dinoyo](kampung)?
+    - [minuman](kategori) apa saja yang ada di [kampung keramik dinoyo](kampung)?
+    - [makanan](kategori) apa saja yang ada di [kampung cempluk](kampung)?
+    - [minuman](kategori) apa saja yang ada di [kampung cempluk](kampung)?
+    - [makanan](kategori) apa saja yang ada di [kampung sumbersari](kampung)?
+    - [minuman](kategori) apa saja yang ada di [kampung sumbersari](kampung)?
+    - [makanan](kategori) yang dijual di [kampung ketawanggede](kampung)?
+    - [minuman](kategori) yang tersedia di [kampung keramik dinoyo](kampung)?
+
+- intent: tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung
+  examples: |
+    - rekomendasi [makanan](kategori) di [kampung ketawanggede](kampung) untuk cuaca sekarang
+    - [makanan](kategori) yang cocok saat hujan di [kampung keramik dinoyo](kampung)
+    - kuliner apa yang cocok saat [panas](cuaca) seperti sekarang di [kampung ketawanggede](kampung)?
+    - [makanan](kategori) apa yang cocok saat [dingin](cuaca) di [kampung keramik dinoyo](kampung)?
+    - rekomendasi kuliner yang cocok saat [hujan](cuaca) di [kampung cempluk](kampung)?
+    - berikan rekomendasi [minuman](kategori) saat [siang](cuaca) di [kampung keramik dinoyo](kampung)?
+    - saya ingin tahu [makanan](kategori) yang cocok saat [malam](cuaca) di [kampung ketawanggede](kampung)?
+    - apa rekomendasi kuliner saat [mendung](cuaca) di [kampung cempluk](kampung)?
+    - rekomendasi [makanan](kategori) yang cocok untuk cuaca saat ini di [kampung cempluk](kampung)?
+    - kuliner apa yang cocok saat ini di [kampung ketawanggede](kampung)?
+    - berikan rekomendasi kuliner untuk cuaca sekarang di [kampung cempluk](kampung)
+
+- intent: tanya_lokasi_kelurahan_kampung
+  examples: |
+    - dimana lokasi kantor kelurahan [kampung ketawanggede](kampung)?  
+    - dimana lokasi kantor kelurahan [kampung cempluk](kampung)?
+    - dimana lokasi kantor kelurahan [kampung ketawanggede](kampung)?
+    - lokasi kantor desa [kampung keramik dinoyo](kampung)?
+    - lokasi kantor kelurahan [kampung keramik dinoyo](kampung)?
+    - lokasi kantor kelurahan [kampung cempluk](kampung)?
+    - dimana lokasi kantor kelurahan [kampung sumbersari](kampung)?
+    - lokasi kantor [kampung keramik dinoyo](kampung)?
+
+- intent: tanya_contact_kampung
+  examples: |
+    - bagaimana cara mendapatkan informasi [kampung ketawanggede](kampung)?
+    - bagaimana cara mendapatkan informasi [kampung keramik dinoyo](kampung)?
+    - bagaimana cara mendapatkan informasi [kampung sumbersari](kampung)?
+    - bagaimana cara mendapatkan informasi [kampung cempluk](kampung)?
+    - apa media sosial dari [kampung cempluk](kampung)?
+    - apa media sosial dari [kampung ketawanggede](kampung)?
+    - apa media sosial dari [kampung keramik dinoyo](kampung)?
+    - apa media sosial dari [kampung sumbersari](kampung)?
+    - dimana saya bisa mendapatkan info [kampung ketawanggede](kampung)?
+    - dimana saya bisa mendapatkan info [kampung keramik dinoyo](kampung)?  
+    - dimana saya bisa mendapatkan info [kampung sumbersari](kampung)?
+    - dimana saya bisa mendapatkan informasi [kampung keramik dinoyo](kampung)?
+
+#DATA KULINER
+- intent: tanya_general_kuliner
+  examples: |
+    - apa itu [es dawet](kuliner)?
+    - apa itu [nasi pecel](kuliner)?
+    - apa itu [cenil](kuliner)?
+    - apa itu [jamu beras kencur](kuliner)?
+    - apa itu [jamu kunir madu](kuliner)?
+    - jelaskan apa itu [jamu beras kencur](kuliner)?
+    - jelaskan apa itu [jamu kunir madu](kuliner)?
+    - deskripsikan apa itu [klepon](kuliner)?
+    - deskripsikan apa itu [sego empok](kuliner)?
+    - deskripsikan apa itu [jamu kunir madu](kuliner)?
+    - deskripsikan apa itu [jamu beras kencur](kuliner)?
+
+- intent: tanya_rekomendasi_kuliner_berdasarkan_cuaca
+  examples: |
+    - rekomendasi [makanan](kategori) untuk cuaca sekarang
+    - kuliner apa yang cocok saat [panas](cuaca) seperti sekarang?
+    - [makanan](kategori) apa yang cocok saat [dingin](cuaca) saat ini?
+    - rekomendasi [minuman](kategori) saat [gerah](cuaca)
+    - kuliner apa yang cocok saat [mendung](cuaca)?
+    - rekomendasi kuliner ketika [pagi](cuaca)
+    - apa [makanan](kategori) terbaik untuk [siang](cuaca)?
+    - saya ingin tahu kuliner yang cocok saat [malam](cuaca)
+    - apa rekomendasi [makanan](kategori) saat [hujan](cuaca)?
+    - [minuman](kategori) yang pas untuk [sore](cuaca)?
+    - rekomendasi kuliner yang cocok untuk cuaca saat ini
+    - rekomendasi [minuman](kategori) saat [gerah](cuaca)
+    - [makanan](kategori) apa yang cocok saat ini?
+    - berikan rekomendasi kuliner untuk cuaca sekarang
+    - [minuman](kategori) yang pas untuk [sore](cuaca)?
+    - saya ingin tahu kuliner yang cocok saat [malam](cuaca)
+    - apa rekomendasi [makanan](kategori) saat [hujan](cuaca)?
+
+#DATA SITUS
+- intent: tanya_general_situs
+  examples: |
+    - [situs watugong](situs)?  
+    - [situs punden kalisongo](situs)?
+    - [candi badut](situs)?
+    - sejarah [situs punden kalisongo](situs)?
+    - sejarah [situs watugong](situs)?
+    - sejarah [candi badut](situs)?
+    - deskripsi [candi badut](situs)?
+    - deskripsi [situs punden kalisongo](situs)?
+    - deskripsi [situs watugong](situs)
+    - saya ingin tahu situs [candi badut](situs)?
+    - saya ingin tahu situs [situs punden kalisongo](situs)?
+    - saya ingin tahu situs [situs watugong](situs)?
+
+- intent: tanya_lokasi_situs
+  examples: |
+    - dimana lokasi dari [situs watugong](situs)?  
+    - dimana lokasi dari [situs punden kalisongo](situs)?
+    - lokasi situs [candi badut](situs)?
+    - lokasi situs [situs punden kalisongo](situs)?
+    - lokasi situs [situs punden kalisongo](situs)?
+    - dimana lokasi dari [candi badut](situs)?
+    - tempat dari [situs punden kalisongo](situs)?
+    - dimana lokasi dari [situs punden kalisongo](situs)?
+
+#DATA LAYANAN KESEHATAN
+- intent: tanya_kategori_layanan_kesehatan
+  examples: |
+    - apa saja [puskesmas](kategori) di klk?
+    - apa saja [klinik](kategori) di klk?
+    - apa saja [rumah sakit](kategori) di klk?
+    - ada [klinik](kategori) kesehatan apa di sekitar?
+    - ada [puskesmas](kategori) apa di sekitar?
+    - ada [rumah sakit](kategori) apa di sekitar?
+    - [rumah sakit](kategori) apa yang ada di klk?
+    - [puskesmas](kategori) apa yang ada di klk?
+    - [klinik](kategori) apa yang ada di klk?
+
+
+- intent: tanya_jenis_gejala_layanan_kesehatan
+  examples: |
+    - saya mengalami gejala [demam](gejala) dimana saya harus periksa?
+    - saya kena  gejala [pusing](gejala) yang parah, dimana saya bisa berobat?
+    - tempat periksa untuk [flu](gejala)?
+    - saya mengalami [batuk](gejala) parah, dimana bisa berobat?
+    - dimana tempat periksa untuk [sakit kepala](gejala)?
+    - tempat berobat untuk [sakit gigi](gejala)?
+    - klinik untuk mengobati [sakit tenggorokan](gejala)?
+    - rumah sakit yang menangani [sakit perut](gejala)?
+    - saya sedang [demam](gejala), kemana sebaiknya periksa?
+    - [maag](gejala) saya kambuh, dimana saya harus periksa?
+
+- synonym: "rumah sakit universitas brawijaya"
+  examples: |
+    - rsub
+    - rumah sakit ub
+
+- synonym: "klinik universitas brawijaya"
+  examples: |
+    - klinik ub
+    - kub
+
+- intent: tanya_lokasi_layanan_kesehatan
+  examples: |
+    - dimana lokasi [rumah sakit universitas brawijaya](kesehatan)?
+    - dimana lokasi [rumah sakit umum bri medika](kesehatan)
+    - lokasi [puskesmas sumbersari](kesehatan)?
+    - lokasi [klinik universitas brawijaya](kesehatan)?
+    - dimana lokasi [puskesmas sumbersari](kesehatan)?
+    - tempat [klinik daqu sehat](kesehatan)?
+    - dimana lokasi [rumah sakit islam unisma](kesehatan)?
+
+- intent: tanya_jam_operasional_layanan_kesehatan
+  examples: |
+    - jam buka [rumah sakit universitas brawijaya](kesehatan)
+    - jam buka [rumah sakit umum bri medika](kesehatan)
+    - jam operasional [puskesmas sumbersari](kesehatan)
+    - jam operasional [klinik daqu sehat](kesehatan)
+    - jam operasional [rumah sakit islam unisma](kesehatan)
+
+- intent: tanya_contact_layanan_kesehatan
+  examples: |
+    - apa kontak [rumah sakit universitas brawijaya](kesehatan)
+    - dimana dapat menghubungi kontak [klinik universitas brawijaya](kesehatan)
+    - kontak terkait [klinik daqu sehat](kesehatan)
+    - cara mendaftar periksa di [klinik elfahmi](kesehatan)
+    - kontak pendaftaran kunjungan di [rumah sakit islam unisma](kesehatan)
+
+- lookup: situs
+  examples: |
+    - situs sejarah watugong
+    - candi badut
+    - situs punden kalisongo
+
+- regex: situs
+  examples: |
+    - (?:situs[- ](?:watugong|punden[- ]kalisongo)|candi[- ]badut)
+
+- lookup: event
+  examples: |
+    - festival kampung budoyo
+    - bazar kampung kuliner
+    - festival keramik dinoyo
+    - festival kali brantas
+    - festival kampung cempluk
+
+- regex: event
+  examples: |
+    - festival[- ](?:kampung[- ](?:budoyo|cempluk)|keramik[- ]dinoyo|kali[- ]brantas)|bazar[- ]kampung[- ]kuliner
+
+- lookup: kampung
+  examples: |
+    - kampung ketawanggede
+    - kampung sumbersari
+    - kampung keramik dinoyo
+    - kampung cempluk
+
+- regex: kampung
+  examples: |
+    - kampung[- ](?:ketawanggede|sumbersari|keramik[- ]dinoyo|cempluk|watugong)
+
+- lookup: kuliner
+  examples: |
+    - sego ampok
+    - nasi bali
+    - nasi pecel
+    - ketan
+    - kue putu
+    - gulali
+    - klepon
+    - cenil
+    - lupis
+    - sawut
+    - es dawet
+    - es gandul
+    - jamu beras kencur
+    - jamu kunir madu
+    - wedang angsle
+
+- regex: kuliner
+  examples: |
+    - (?:nasi[- ](?:pecel|bali)|sego[- ]ampok|kue[- ]putu|es[- ](?:dawet|gandul)|jamu[- ](?:beras[- ]kencur|kunir[- ]madu)|wedang[- ]angsle|(?:ketan|gulali|klepon|cenil|lupis|sawut))
+
+- lookup: kesehatan
+  examples: |
+    - klinik universitas brawijaya
+    - klinik universitas brawijaya dieng
+    - klinik adi husada
+    - klinik sumber trisno
+    - rumah sehat ibnu sina
+    - klinik daqu sehat
+    - klinik elfahmi
+    - puskesmas dinoyo
+    - puskesmas sumbersari
+    - rumah sakit universitas brawijaya
+    - rumah sakit umum bri medika
+    - rumah sakit islam unisma
+
+- lookup: kategori
+  examples: |
+    - rumah sakit
+    - klinik
+    - puskesmas
+
+- regex: kategori
+  examples: |
+    - (?:rumah[- ](?:sakit)|puskesmas|klinik)
+
+- lookup: gejala
+  examples: |
+    - batuk
+    - flu
+    - demam
+    - pusing
+    - maag
+    - sakit kepala
+    - sakit gigi
+    - sakit tenggorokan
+    - sakit perut
+
+- lookup: cuaca
+  examples: |
+    - hujan
+    - malam
+    - cerah
+    - gerah
+    - mendung
+    - panas
+    - dingin
+    - pagi
+    - siang
+    - sore
+
+- synonym: "nasi pecel"
+  examples: |
+    - pecel
+    - nasi pecel
+    - nas pecel
+
+- synonym: "jamu beras kencur"
+  examples: |
+    - beras kencur
+    - jamu beras kencur
+
+- synonym: "jamu kunir madu"
+  examples: |
+    - kunir madu
+    - jamu kunir madu

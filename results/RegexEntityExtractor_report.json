@@ -1,0 +1,79 @@
+{
+  "situs": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 43,
+    "confused_with": {}
+  },
+  "event": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 507,
+    "confused_with": {}
+  },
+  "cuaca": {
+    "precision": 0.9565217391304348,
+    "recall": 1.0,
+    "f1-score": 0.9777777777777777,
+    "support": 22,
+    "confused_with": {}
+  },
+  "kampung": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 352,
+    "confused_with": {}
+  },
+  "kategori": {
+    "precision": 0.6956521739130435,
+    "recall": 0.5,
+    "f1-score": 0.5818181818181818,
+    "support": 96,
+    "confused_with": {}
+  },
+  "kuliner": {
+    "precision": 1.0,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.9600000000000001,
+    "support": 26,
+    "confused_with": {}
+  },
+  "kesehatan": {
+    "precision": 1.0,
+    "recall": 0.5609756097560976,
+    "f1-score": 0.71875,
+    "support": 41,
+    "confused_with": {
+      "kategori": 18
+    }
+  },
+  "gejala": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9791469194312796,
+    "recall": 0.9382379654859219,
+    "f1-score": 0.9582560296846011,
+    "support": 1101
+  },
+  "macro avg": {
+    "precision": 0.9565217391304348,
+    "recall": 0.8730065666041276,
+    "f1-score": 0.904793244949495,
+    "support": 1101
+  },
+  "weighted avg": {
+    "precision": 0.972594084429175,
+    "recall": 0.9382379654859219,
+    "f1-score": 0.9516752103230305,
+    "support": 1101
+  },
+  "accuracy": 0.9752066115702479
+}

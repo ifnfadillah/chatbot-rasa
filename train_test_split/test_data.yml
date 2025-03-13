@@ -1,0 +1,207 @@
+version: "3.1"
+nlu:
+- intent: affirm
+  examples: |
+    - baik
+- intent: deny
+  examples: |
+    - no
+- intent: tanya_contact_klk
+  examples: |
+    - apa media sosial kampung lingkar kampus
+- intent: tanya_event_lokasi_kampung
+  examples: |
+    - kebudayaan apa saja di [kampung keramik dinoyo](kampung)?
+- intent: tanya_layanan_kesehatan_lokasi_kampung
+  examples: |
+    - layanan kesehatan di [kampung ketawanggede](kampung)?
+- intent: tanya_general_situs
+  examples: |
+    - [situs watugong](situs)?
+- intent: tanya_layanan_kesehatan_klk
+  examples: |
+    - apa saja layanan kesehatan yang ada di sekitar kampung lingkar kampus?
+- intent: tanya_tujuan_event
+  examples: |
+    - apa tujuan dari [festival keramik dinoyo](event)
+- intent: tanya_sejarah_event
+  examples: |
+    - ceritakan asal usul dari [festival kampung cempluk](event)?
+- intent: tanya_kegiatan_event
+  examples: |
+    - ada kegiatan apa saja di [festival kampung budoyo](event)?
+- intent: tanya_general_kampung
+  examples: |
+    - deskripsi [kampung keramik dinoyo](kampung)
+- intent: tanya_sejarah_kampung
+  examples: |
+    - sejarah [kampung keramik dinoyo](kampung)
+- intent: tanya_layanan_masyarakat_kampung
+  examples: |
+    - cara ngurus layanan di [kampung ketawanggede](kampung)
+- intent: tanya_lokasi_kelurahan_kampung
+  examples: |
+    - lokasi kantor desa [kampung keramik dinoyo](kampung)?
+- intent: tanya_contact_kampung
+  examples: |
+    - bagaimana cara mendapatkan informasi [kampung sumbersari](kampung)?
+- intent: tanya_lokasi_situs
+  examples: |
+    - dimana lokasi [situs punden kalisongo](situs)?
+- intent: tanya_jenis_gejala_layanan_kesehatan_lokasi_kampung
+  examples: |
+    - saya mengalami gejala [pusing](gejala) dimana saya harus periksa di [kampung cempluk](kampung)?
+- intent: tanya_lokasi_layanan_kesehatan
+  examples: |
+    - dimana lokasi [rumah sakit islam unisma](kesehatan)?
+- intent: tanya_jam_operasional_layanan_kesehatan
+  examples: |
+    - jam operasional [rumah sakit islam unisma](kesehatan)
+- intent: tanya_contact_layanan_kesehatan
+  examples: |
+    - dimana dapat menghubungi [klinik universitas brawijaya](kesehatan)
+- intent: tanya_situs_klk
+  examples: |
+    - apa saja peninggalan sejarah yang ada di kampung lingkar kampus?
+- intent: tanya_tanggal_event
+  examples: |
+    - berikan tanggal [festival kampung cempluk](event)
+- intent: tanya_lokasi_event
+  examples: |
+    - [festival kampung cempluk](event) diadakan dimana?
+- intent: tanya_situs_lokasi_kampung
+  examples: |
+    - apa saja cagar budaya yang ada di [kampung sumbersari](kampung)?
+- intent: tanya_kategori_layanan_kesehatan
+  examples: |
+    - daftar lengkap [jenis puskesmas](kategori) di area klk
+- intent: tanya_kategori_layanan_kesehatan_lokasi_kampung
+  examples: |
+    - [klinik](kesehatan) terdekat di [kampung cempluk](kampung)?
+- intent: tanya_kuliner_lokasi_event
+  examples: |
+    - [minuman](kategori) apa yang bisa ditemukan di [bazar kampung kuliner](event)?
+- intent: tanya_contact_event
+  examples: |
+    - dimana saya bisa mendapatkan info [bazar kampung kuliner](event)?
+    - update seputar [festival kampung cempluk](event) dimana?
+- intent: tanya_sejarah_klk
+  examples: |
+    - bagaimana awal mula klk ada
+    - ceritakan sejarah klk dari awal
+- intent: tanya_rekomendasi_kuliner_berdasarkan_cuaca_event
+  examples: |
+    - apa rekomendasi [makanan](kategori) saat [mendung](cuaca) di [festival kali brantas](event)?
+    - rekomendasi kuliner yang cocok saat [hujan](cuaca) di [bazar kampung kuliner](event)?
+- intent: greet
+  examples: |
+    - hey
+    - assalamualaikum
+- intent: tanya_kuliner_lokasi_kampung
+  examples: |
+    - [minuman](kategori) apa yang bisa ditemukan di [kampung keramik dinoyo](kampung)?
+    - jajanan apa yang ada di [kampung cempluk](kampung)?
+- intent: tanya_jenis_gejala_layanan_kesehatan
+  examples: |
+    - saya sedang [demam tinggi](gejala), kemana sebaiknya periksa?
+    - saya mengalami gejala [pusing kepala](gejala) yang parah, dimana saya bisa berobat?
+- intent: tanya_general_kuliner
+  examples: |
+    - deskripsikan apa itu klepon
+    - apa itu sawut?
+- intent: tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung
+  examples: |
+    - kuliner apa yang cocok saat ini di [kampung ketawanggede](kampung)?
+    - rekomendasi makanan di kampung ketawanggede untuk cuaca sekarang
+- intent: tanya_event_klk
+  examples: |
+    - kegiatan rutin klk
+    - event tahunan klk
+- intent: tanya_general_klk
+  examples: |
+    - apa sih klk itu
+    - tolong jelaskan tentang klk
+    - kampung lingkar kampus itu program apa
+- intent: tanya_rekomendasi_kuliner_berdasarkan_cuaca
+  examples: |
+    - saya ingin tahu kuliner yang cocok saat [malam](cuaca)
+    - rekomendasi makanan untuk cuaca sekarang
+    - [makanan](kategori) apa yang cocok saat [dingin](cuaca) saat ini?
+- intent: goodbye
+  examples: |
+    - cukup
+    - terima kasih informasinya
+    - cukup sekian
+    - makasih
+- intent: tanya_general_event
+  examples: |
+    - bisa ceritakan tentang [festival kampung budoyo](event)
+    - bisa ceritakan tentang [bazar kampung kuliner](event)
+    - [festival kampung cempluk](event)
+    - apa itu pengertian dari [festival kampung cempluk](event)
+- synonym: Kampung Lingkar Kampus
+  examples: |
+    - KLK
+    - klk
+- synonym: kampung ketawanggede
+  examples: |
+    - ketawanggede
+    - kampung watugong
+    - watugong
+- synonym: kampung sumbersari
+  examples: |
+    - sumbersari
+- synonym: kampung keramik dinoyo
+  examples: |
+    - kampung dinoyo
+    - kampung keramik
+    - dinoyo
+- synonym: kampung cempluk
+  examples: |
+    - kampung kalisongo
+    - kalisongo
+- synonym: rumah sakit universitas brawijaya
+  examples: |
+    - rsub
+    - rumah sakit ub
+- synonym: klinik universitas brawijaya
+  examples: |
+    - klinik ub
+    - kub
+- lookup: kesehatan
+  examples: |
+    - rumah sakit universitas brawijaya malang
+    - klinik universitas brawijaya malang
+    - puskesmas sumbersari malang
+    - klinik daqu sehat malang
+    - rumah sakit islam unisma malang
+- lookup: situs
+  examples: |
+    - situs sejarah watugong
+    - candi badut
+    - situs punden kalisongo
+- lookup: kampung
+  examples: |
+    - kampung wisata ketawanggede
+    - kampung budaya sumbersari
+    - kampung kerajinan keramik dinoyo
+    - kampung wisata cempluk kalisongo
+    - ketawanggede
+    - kampung watugong
+- lookup: gejala
+  examples: |
+    - demam tinggi
+    - batuk berdahak
+    - flu berat
+    - pusing kepala
+    - sakit kepala parah
+    - sakit gigi berlubang
+    - sakit tenggorokan akut
+    - sakit perut melilit
+    - maag kronis
+    - alergi kulit
+- lookup: cuaca
+  examples: |
+    - hujan
+    - gerimis
+    - mendung

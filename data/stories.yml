@@ -1,0 +1,190 @@
+version: "3.1"
+
+stories:
+- story: Say greeting to user
+  steps:
+  - intent: greet
+  - action: action_get_time_greeting
+  - action: utter_greet
+  - action: action_provide_quick_ask
+
+##KLK DATA
+#CONVERSATIONAL FLOW KLK
+- story: Ask About KLK Program General Questions
+  steps:
+  - intent: greet
+  - action: action_get_time_greeting
+  - action: utter_greet
+  - action: action_provide_quick_ask
+  - intent: tanya_general_klk
+  - action: utter_informasi_umum_klk
+  - action: action_provide_quick_ask
+  - intent: tanya_sejarah_klk
+  - action: utter_sejarah_klk
+  - action: action_provide_quick_ask
+  - intent: goodbye
+  - action: utter_goodbye
+
+##EVENT DATA
+#CONVERSATIONAL FLOW EVENT 
+- story: Ask About KLK Event Questions
+  steps:
+    - intent: greet
+    - action: action_get_time_greeting
+    - action: utter_greet
+    - action: action_provide_quick_ask
+    - intent: tanya_event_klk
+    - action: action_get_event_klk
+    - action: action_provide_quick_ask
+    - intent: tanya_general_event
+    - slot_was_set:
+        - last_entity_type: "event"
+        - last_entity_value: "{last_entity_value}"
+    - action: action_get_inform_general_event
+    - action: action_provide_quick_ask
+    - intent: tanya_tanggal_event
+    - slot_was_set:
+        - last_entity_type: "event"
+        - last_entity_value: "{last_entity_value}"
+    - action: action_get_tanggal_event
+    - action: action_provide_quick_ask
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Ask About KLK Event Kegiatan & Lokasi Event
+  steps:
+    - intent: tanya_event_klk
+    - action: action_get_event_klk
+    - action: action_provide_quick_ask
+    - intent: tanya_general_event
+    - slot_was_set:
+        - last_entity_type: "event"
+        - last_entity_value: "{last_entity_value}"
+    - action: action_get_inform_general_event
+    - action: action_provide_quick_ask
+    - intent: tanya_kegiatan_event
+    - action: action_get_kegiatan_event
+    - action: action_provide_quick_ask 
+    - intent: tanya_lokasi_event
+    - action: action_get_lokasi_event
+    - action: action_provide_quick_ask 
+  
+- story: Ask About KLK Event Kuliner & Kuliner Recommendation Based on Cuaca
+  steps:
+    - intent: tanya_event_klk
+    - action: action_get_event_klk
+    - action: action_provide_quick_ask
+    - intent: tanya_general_event
+    - slot_was_set:
+        - last_entity_type: "event"
+        - last_entity_value: "{last_entity_value}"
+    - action: action_get_inform_general_event
+    - action: action_provide_quick_ask
+    - intent: tanya_kuliner_lokasi_event
+    - action: action_get_kuliner_lokasi_event
+    - action: action_provide_quick_ask
+    - intent: tanya_rekomendasi_kuliner_berdasarkan_cuaca_event
+    - action: action_get_rekomendasi_kuliner_berdasarkan_cuaca_event
+    - action: action_provide_quick_ask
+
+##KAMPUNG DATA
+#CONVERSATIONAL FLOW KAMPUNG
+- story: Ask About Layanan Masyarakat Kampung Questions
+  steps:
+    - intent: tanya_general_kampung
+    - slot_was_set:
+        - last_entity_type: "kampung"
+        - last_entity_value: "{last_entity_value}"
+    - action: action_get_inform_general_kampung
+    - action: action_provide_quick_ask
+    - intent: tanya_layanan_masyarakat_kampung
+    - action: action_get_layanan_masyarakat_kampung
+    - action: action_provide_quick_ask 
+
+- story: Ask About Situs Kampung & Lokasi Situs Kampung
+  steps:
+    - intent: tanya_general_kampung
+    - slot_was_set:
+        - last_entity_type: "kampung"
+        - last_entity_value: "{last_entity_value}"
+    - action: action_get_inform_general_kampung
+    - action: action_provide_quick_ask
+    - intent: tanya_situs_lokasi_kampung
+    - action: action_get_situs_lokasi_kampung
+    - action: action_provide_quick_ask
+    - intent: tanya_lokasi_situs
+    - action: action_get_lokasi_situs
+    - action: action_provide_quick_ask
+
+- story: Ask About Event Kampung
+  steps:
+    - intent: tanya_general_kampung
+    - slot_was_set:
+        - last_entity_type: "kampung"
+        - last_entity_value: "{last_entity_value}"
+    - action: action_get_inform_general_kampung
+    - action: action_provide_quick_ask
+    - intent: tanya_event_lokasi_kampung
+    - action: action_get_event_lokasi_kampung
+    - action: action_provide_quick_ask
+
+- story: Ask About Layanan Kesehatan & Gejala Layanan Kesehatan Lokasi Kampung
+  steps:
+    - intent: tanya_general_kampung
+    - slot_was_set:
+        - last_entity_type: "kampung"
+        - last_entity_value: "{last_entity_value}"
+    - action: action_get_inform_general_kampung
+    - action: action_provide_quick_ask
+    - intent: tanya_layanan_kesehatan_lokasi_kampung
+    - action: action_get_layanan_kesehatan_lokasi_kampung
+    - action: action_provide_quick_ask
+    - intent: tanya_jenis_gejala_layanan_kesehatan_lokasi_kampung
+    - action: action_get_jenis_gejala_layanan_kesehatan_lokasi_kampung
+    - action: action_provide_quick_ask
+
+- story: Ask About Kampung Kuliner & Kuliner Recommendation Based on Cuaca
+  steps:
+    - intent: tanya_general_kampung
+    - slot_was_set:
+        - last_entity_type: "kampung"
+        - last_entity_value: "{last_entity_value}"
+    - action: action_get_inform_general_kampung
+    - action: action_provide_quick_ask
+    - intent: tanya_kuliner_lokasi_kampung
+    - action: action_get_kuliner_lokasi_kampung
+    - action: action_provide_quick_ask
+    - intent: tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung
+    - action: action_get_rekomendasi_kuliner_berdasarkan_cuaca_kampung
+    - action: action_provide_quick_ask
+
+
+##KULINER DATA
+#CONVERSATIONAL FLOW KULINER
+- story: Ask About Kuliner & Kuliner Recomendation Based on Cuaca
+  steps: 
+    - intent: tanya_general_kuliner
+    - action: action_get_inform_general_kuliner
+    - action: action_provide_quick_ask
+    - intent: tanya_rekomendasi_kuliner_berdasarkan_cuaca
+    - action: action_get_rekomendasi_kuliner_berdasarkan_cuaca
+    - action: action_provide_quick_ask
+
+#DATA LAYANAN KESEHATAN
+- story: Ask About Jenis Gejala Layanan Kesehatan & Contact
+  steps: 
+    - intent: tanya_jenis_gejala_layanan_kesehatan
+    - action: action_get_jenis_gejala_layanan_kesehatan
+    - action: action_provide_quick_ask
+    - intent: tanya_contact_layanan_kesehatan
+    - action: action_get_contact_layanan_kesehatan
+
+- story: Ask About Jam Operasional Layanan Kesehatan & Lokasi 
+  steps:
+    - intent: tanya_jam_operasional_layanan_kesehatan
+    - action: action_get_jam_operasional_layanan_kesehatan
+    - action: action_provide_quick_ask
+    - intent: tanya_lokasi_layanan_kesehatan
+    - action: action_get_lokasi_layanan_kesehatan
+    
+

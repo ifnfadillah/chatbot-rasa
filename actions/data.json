@@ -1,0 +1,459 @@
+{
+  "intents": [
+    {
+      "greet": ["Apa itu Program Kampung Lingkar Kampus?", "Bagaimana sejarah adanya Kampung Lingkar Kampus?", "Ada event atau festival apa saja di Kampung Lingkar Kampus?", "Ada situs-situs apa saja di sekitar?", "Apa Media sosial Kampung Lingkar Kampus?", "Layanan Kesehatan di Sekitar"]
+    },{
+      "affirm":["Iya", "Tidak"]
+    }, {
+      "deny": ["Iya", "Tidak"]
+    },{
+      "tanya_general_klk": ["Bagaimana sejarah adanya Kampung Lingkar Kampus?", "Ada event atau festival apa saja di Kampung Lingkar Kampus?", "Ada situs-situs apa saja di sekitar?", "Apa Media sosial Kampung Lingkar Kampus?", "Layanan Kesehatan di Sekitar"]
+    },{
+      "tanya_sejarah_klk": ["Apa itu Program Kampung Lingkar Kampus?", "Kampung Cempluk", "Ada event atau festival apa saja di Kampung Lingkar Kampus?", "Ada situs-situs apa saja di sekitar?", "Apa Media sosial Kampung Lingkar Kampus?", "Layanan Kesehatan di Sekitar"]
+    },{
+      "tanya_event_klk": ["Apa itu Festival Kampung Budoyo", "Apa itu Festival Keramik Dinoyo", "Apa itu Festival Kampung Cempluk", "Apa itu Bazar Kampung Kuliner", "Apa itu Festival Kali Brantas"]
+    },{
+      "tanya_situs_klk": ["Apa itu Situs Watugong?", "Apa itu Situs Punden Kalisongo?", "Sejarah Situs Candi Badut?", "Dimana lokasi Situs Watugong?", "Dimana lokasi Situs Punden Kalisongo"]
+    },{
+      "tanya_layanan_kesehatan_klk": ["Kontak Pendaftaran Periksa di Klinik Universitas Brawijaya", "Dimana Lokasi Puskemas Dinoyo", "Jam operasional Klinik UB", "Dimana lokasi Klinik Daqu Sehat", "Saya mengalami gejala sakit kepala, rekomendasi dimana saya periksa?", "Saya mengalami gejala flu, dimana saya bisa berobat?"]
+    },{
+      "tanya_kategori_layanan_kesehatan": ["Saya mengalami gejala demam, dimana saya harus periksa", "Maag saya kambuh, dimana saya dapat periksa", "Dimana tempat periksa sakit gigi?"]
+    } 
+  ],
+  "events": [
+    {
+      "name": "Festival Kampung Budoyo",
+      "kampung": "kampung ketawanggede",
+      "informGeneralEvent": "Festival Kampung Budoyo merupakan kegiatan festival tahunan yang diadakan oleh warga RW 03, Kampung Ketawanggede, Kelurahan Lowokwaru yang diselenggarakan di Jalan Kerto Pamuji dengan memadukan tema budaya jadul (tradisional) dan modern",
+      "tujuanEvent": "Festival Kampung Budoyo digelar dengan tujuan untuk mengenalkan dan melestarikan budaya di era kemajuan teknologi serta menjadi wadah yang menyatukan berbagai elemen masyarakat, mulai dari komunitas-komunitas sampai penggiat seni di Kota Malang",
+      "sejarahEvent": "Festival Kampung Budoyo dulunya berawal dari tahun 2023 yang diadakan oleh warga RW 03, Kampung Ketawanggede, Kelurahan Lowokwaru seiring semakin banyaknya mahasiswa yang tinggal di sekitar Ketawanggede, sekaligus mengedukasi tentang budaya dan hiburan lokal",
+      "tanggalEvent": "Festival Kampung Budoyo selalu diadakan setiap tahun dalam rangkaian peringatan HUT Kemerdekaan RI atau sekitar bulan Agustus oleh warga RW 03 Kampung Ketawanggede. Berdasarkan tahun sebelumnya, terakhir kali Festival Kampung Budoyo #2 diadakan selama 3 hari pada 29 - 31 Agustus 2024",
+      "lokasiEvent": "Festival Kampung Budoyo diadakan setiap tahunnya di Jalan Kerto Pamuji atau wilayah RW 03, Kampung Ketawanggede, Kecamatan Lowokwaru, Kota Malang",
+      "kegiatanEvent": "Festival Kampung Budoyo menyajikan kegiatan, mulai dari pasar rakyat tempo dulu, berbagai produk UMKM, panggung hiburan musik keroncong, mainan anak-anak dan penampilan budaya wayang",
+      "kulinerEvent": "Pada Festival Kampung Budoyo memadukan kuliner UMKM Jadul (Jaman dulu) dan kuliner modern, seperti Es Gandul, Jamu Beras Kencur, Kunir Madu, Klepon,  Es Dawet, Sego Empok, Gulali, Cenil, Bakso Aci, dll",
+      "contactEvent": "Sobat Kaboo bisa mendapatkan informasi seputar Festival Kampung Budoyo melalui media sosial instagram @kampungbudoyo45"
+    },
+    {
+      "name": "Bazar Kampung Kuliner",
+      "kampung": "kampung ketawanggede",
+      "informGeneralEvent": "Bazar Kampung Kuliner merupakan kegiatan bazar kuliner UMKM yang diadakan setiap hari minggu oleh warga RW 02, Kampung Ketawanggede, Kelurahan Lowokwaru dengan tema yang berbeda-beda di setiap pekannya",
+      "tujuanEvent": "Bazar Kampung Kuliner diadakan bertujuan untuk membantu roda perekonomian warga RW 02 terutama UMKM kuliner melihat letak Kampung Ketawanggede yang mayoritas dihuni oleh mahasiswa Universitas Brawijaya dan UIN Malang",
+      "sejarahEvent": "Bazar Kampung Kuliner berawal pasca pandemi COVID-19 tahun 2021 diselenggarakan oleh warga RW 02, Kampung Ketawanggede, Kelurahan Lowokwaru untuk membangkitkan perekonomian UMKM sekitar",
+      "tanggalEvent": "Bazar Kampung Kuliner selalu diadakan pada hari minggu setiap pekan dengan tema yang berbeda-beda",
+      "lokasiEvent": "Bazar Kampung Kuliner diadakan di sepanjang Jalan Kertoseno atau wilayah RW 02, Kampung Ketawanggede, Kecamatan Lowokwaru, Kota Malang",
+      "kegiatanEvent": "Bazar Kampung Kuliner mengadakan kegiatan utama berupa stand bazar kuliner atau jajanan UMKM, mulai dari jajanan tradisional maupun modern dan pada pekan tertentu terdapat kegiatan dari panitia berupa lomba untuk anak-anak",
+      "kulinerEvent": "Bazar Kampung Kuliner menyajikan berbagai makanan kuliner seperti, jajanan tradisional lopis, cenil, sawut, makanan gorengan, nasi pecel, nasi bali, dan masih banyak lagi berbagai macam kuliner yang dijual",
+      "contactEvent": "Sobat KLK bisa mendapatkan informasi seputar Bazar Kampung Kuliner dengan mengunjungi langsung pada hari minggu pagi maupun melalui media sosial instagram @kelurahan_ketawanggede"
+    },
+    {
+      "name": "Festival Keramik Dinoyo",
+      "kampung": "kampung keramik dinoyo",
+      "informGeneralEvent": "Festival Keramik Dinoyo merupakan kegiatan edukasi dan wisata industri kerajinan yang diadakan oleh forum komunitas Kelompok Sadar Wisata (Pokdarwis) Kota Malang di Kampung Keramik Dinoyo, Kecamatan Lowokwaru",
+      "tujuanEvent": "Festival Keramik Dinoyo diadakan bertujuan untuk memberikan edukasi dan mempromosikan sentra kerajinan keramik asli Kota Malang",
+      "sejarahEvent": "Festival Keramik Dinoyo pertama kali diadakan pada tahun 2018 edisi #1 untuk menunjang keberadaan Kampung Keramik Dinoyo sebagai upaya regenerasi dan meningkatkan ekonomi kreatif. Apakah sobat Kaboo ingin tahu lebih lanjut seputar Kampung Keramik Dinoyo?",
+      "tanggalEvent": "Festival Keramik Dinoyo selalu diadakan setiap tahun. Namun, Kaboo tidak memiliki tanggal pasti kapan Festival Keramik Dinoyo diselenggarakan. Terakhir kali Festival Keramik Dinoyo #4 diselenggarakan pada 11 Agustus 2024, untuk informasi lebih lanjut mungkin Sobat Kaboo dapat mengakses melalui media sosial instagram @dinoyoceramic",
+      "lokasiEvent": "Festival Keramik Dinoyo diadakan di halaman pabrik, Kampung Wisata Keramik Dinoyo, Jalan MT Haryono 9, Dinoyo, Kecamatan Lowokwaru, Kota Malang",
+      "kegiatanEvent": "Festival Keramik Dinoyo mengadakan kegiatan utama berupa edukasi membentuk keramik, mewarna keramik, kegiatan desain keramik serta pelatihan membuat keramik yang diikuti anak muda dari Dinoyo maupun umum",
+      "kulinerEvent": "Mohon maaf, Kaboo tidak memiliki daftar kuliner yang ada di Festival Keramik Dinoyo. Namun, Sobat KLK dapat belanja berbagai jenis kerajinan keramik seperti vas bunga, guci, asbak, piring, hingga hiasan dinding yang memiliki desain unik dan khas",
+      "contactEvent": "Sobat KLK bisa mendapatkan informasi seputar Festival Keramik Dinoyo dengan mengunjungi langsung Kampung Keramik Dinoyo yang buka setiap hari mulai dari jam 8 pagi - 3 sore maupun melalui media sosial instagram @dinoyoceramic"
+    },
+    {
+      "name": "Festival Kali Brantas",
+      "kampung": "kampung keramik dinoyo",
+      "informGeneralEvent": "Festival Kali Brantas merupakan kegiatan yang diadakan oleh forum komunitas Kelompok Sadar Wisata (Pokdarwis) Kota Malang dalam rangka untuk memperingati Hari Sungai Nasional sekaligus menjaga dan melestarikan Daerah Aliran Sungai (DAS) Brantas yang mengaliri 14 kota/kabupaten di Jawa Timur",
+      "tujuanEvent": "Festival Kali Brantas diadakan untuk memperingati Hari Sungai Nasional dengan dibalut budaya kearifan lokal, seperti berdoa bersama agar selamat serta terhindar dari malapetaka bencana sungai dan bertujuan agar generasi-generasi muda dapat memahami pentingnya peduli dengan menjaga kebersihan sungai Brantas",
+      "sejarahEvent": "Festival Kali Brantas pertama kali diadakan pada tahun 2021 edisi #1 oleh forum komunitas Kelompok Sadar Wisata (Pokdarwis) Kota Malang sebagai bentuk rasa syukur adanya Sungai Brantas sebagai salah satu sumber kehidupan yang kemudian membawa berkah dan kemanfaatan masyarakat yang mengaliri 14 kota/kabupaten di Jawa Timur, salah satunya Kota Malang. Apakah sobat Kaboo ingin tahu lebih lanjut seputar kegiatan apa saja yang ada di Festival Kali Brantas?",
+      "tanggalEvent": "Festival Kali Brantas selalu diadakan setiap hari sabtu dan minggu selama 3 minggu di bulan Juli sekaligus peringatan Hari Sungai Nasional",
+      "lokasiEvent": "Festival Kali Brantas diadakan pada 6 titik lokasi yang dialiri Sungai Brantas di Kota Malang, bertempat di titik nol Sumber Brantas, Kota Batu, Kampung Keramik Dinoyo, Kampung Warna-Warni Jodipan, larung sesaji Labuh Kali Brantas di Kampung Gerabah Penanggungan, Kampanye Bersih Kaliku Putih Kampungku di Kampung Putih Klojen, dan Nyanyian Brantas Kaliku Arema Kampungku di Kampung Biru Arema",
+      "kegiatanEvent": "Festival Kali Brantas mengadakan kegiatan selama 3 minggu, mulai dari petik tirto amerto, sarasehan, gugur gunung rijik-rijik Kali Brantas, kenduren, larung sesaji, nyadran hingga nyuluh kali Brantas. Selain itu juga ada kesenian daerah seperti jaranan dan tarian-tarian daerah",
+      "kulinerEvent": "Mohon maaf, Kaboo tidak memiliki informasi daftar kuliner yang ada di Festival Kali Brantas. Namun, Sobat KLK dapat mengunjungi langsung stand-stand kuliner UMKM yang ada di 6 titik lokasi Festival Kali Brantas",
+      "contactEvent": "Mohon maaf, Kaboo tidak memiliki informasi seputar media sosial atau kontak dari Festival Kali Brantas. Namun, Sobat KLK dapat mengakses informasi atau berita terkini seputar Festival Kali Brantas. Apakah Anda tertarik dengan informasi atau berita terbaru seputar Festival Kali Brantas?"
+    },
+    {
+      "name": "Festival Kampung Cempluk",
+      "kampung": "kampung cempluk",
+      "informGeneralEvent": "Festival Kampung Cempluk merupakan kegiatan festival tahunan yang diadakan di Desa Kalisongo, Kecamatan Dau dengan nuansa budaya lokal dan kuliner tempo dulu serta berciri khas setiap stand menggunakan lampu maksimal 5 watt berwarna kuning untuk menciptakan suasana temaram atau remang-remang untuk mengenang masa ketika listrik belum terdistribusi di Kampung Cempluk",
+      "tujuanEvent": "Festival Kampung Cempluk diselenggarakan dengan tujuan untuk mengenang masa dan aktivitas warga sebelum listrik masuk ke Dusun Sumberjo yang sekarang menjadi Kampung Cempluk sekaligus membangkitkan perekonomian dan memberi ruang kreativitas bagi pelaku seni di kawasan tersebut",
+      "sejarahEvent": "Festival Kampung Cempluk pertama kali diselenggarakan tahun 2009, tetapi belum menggunakan nama Festival Kampung Cempluk, masih bernama Festival Sumberjo, karena secara administratif wilayahnya Dusun Sumberjo, Kelurahan Kalisongo, Kecamatan Dau",
+      "tanggalEvent": "Festival Kampung Cempluk selalu diadakan setiap tahun selama 7 hari antara bulan Agustus - September di sepanjang jalanan Desa Kalisongo, Kecamatan Dau, Kabupaten Malang. Terakhir kali Festival Kampung Cempluk edisi ke-14 diadakan selama 7 hari, mulai dari 22 - 28 September 2024 jam 4 sore - 10 malam",
+      "lokasiEvent": "Festival Kampung Cempluk diadakan setiap tahunnya berlokasi di Jalan Dieng Atas, Desa Kalisongo, Kecamatan Dau, Kabupaten Malang",
+      "kegiatanEvent": "Festival Kampung Cempluk menyajikan rangkaian kegiatan, mulai dari pawai budaya, panggung kesenian dan bazar kuliner jajanan tradisional",
+      "kulinerEvent": "Festival Kampung Cempluk menyajikan beragam kuliner UMKM, mulai dari jajanan tradisional, seperti seperti lupis, cenil, ketan, kue putu yang dipadukan dengan jajanan modern",
+      "contactEvent": "Sobat Kaboo bisa mendapatkan informasi seputar Festival Kampung Cempluk melalui media sosial instagram @kampungcempluk"
+    }
+  ],
+
+  "kampungs": [
+    {
+      "name": "Kampung Ketawanggede",
+      "informGeneralKampung": "Kampung Ketawanggede merupakan sebuah kelurahan di wilayah Kecamatan Lowokwaru, Kota Malang, Jawa Timur yang terdiri dari 5 RW (Rukun Warga) dan 32 RT (Rukun Tetangga). \n \n Geografis sebelah utara berbatasan dengan Kelurahan Dinoyo, selatan dengan Kelurahan Sumbersari, sebelah barat dengan Kelurahan Dinoyo dan sebelah timur berbatasan dengan Kelurahan Penanggungan. \n \n Kampung Ketawanggede menjadi salah satu bagian dari Kampung Lingkar Kampus karena lokasinya yang strategis berada di sekeliling Universitas Brawijaya Veteran. Selain itu, Kampung Ketawanggede juga menjadi salah satu daerah banyak hunian kost mahasiswa, rangkain event atau festival tahunan dan beragam kuliner tradisional tersaji.",
+      "mapsGeneralKampung": "https://maps.app.goo.gl/ikc9BkQSwtqUv8tw8",
+      "sejarahKampung": "Sejarah Kampung Ketawanggede berawal dari dahulunya tanah atau lokasi keberadaan kerajaan Kanjuruhan yang berdiri pada abad ke-6 Masehi di antara Sungai Brantas dan Metro yang mana di bawah pemerintahan Raja Gajayana, Kerajaan tersebut berkembang pesat secara kepemimpinan, sosial, ekonomi masyarakat dan budayanya yang kini menjadi Kelurahan atau Kampung Ketawanggede",
+      "layananMasyarakatKampung": "Untuk layanan masyarakat pada Kampung Ketawanggede, Sobat KLK dapat mendatangi langsung ke Kantor Kelurahan Ketawanggede yang beralamatkan di Jl. Gajayana No. 17 B, Kecamatan Lowokwaru, Kota Malang 65145. \n \n Atau melalui nomor telepon kantor 0341-572514 \n \n Selain itu, Sobat KLK juga dapat melalui sistem layanan dan aduan SAMBAT ONLINE Pemerintah Kota Malang di https://sambat.malangkota.go.id",
+      "lokasiKelurahanKampung": "Sobat KLK, bisa mendatangi ke Kantor Kelurahan Ketawanggede yang beralamatkan di Jl. Gajayana No. 17 B, Kecamatan Lowokwaru, Kota Malang 65145.",
+      "mapsKelurahanKampung": "https://maps.app.goo.gl/SUMGW4zkCadWPH6d9",
+      "contactKampung": "Sobat KLk, bisa mendapatkan informasi lebih lanjut terkait Kampung Ketawanggede atau Watugong dapat datang ke Kantor Kelurahan Ketawanggede yang beralamatkan di Jl. Gajayana No. 17 B, Kecamatan Lowokwaru, Kota Malang 65145. \n \n Untuk informasi lebih lanjut bisa menghubungi nomor telepon kantor 0341-572514. \n \n Dan dapat mengirimkan email ke kel-ketawanggede@malangkota.go.id, atau mengakses laman resminya di https://kelketawanggede.malangkota.go.id dan instagram @keluharan_ketawanggede"
+    },
+    {
+      "name": "Kampung Sumbersari",
+      "informGeneralKampung": "Kampung Sumbersari merupakan sebuah kelurahan di wilayah Kecamatan Lowokwaru, Kota Malang, Jawa Timur yang terdiri dari 7 RW (Rukun Warga) dan 40 RT (Rukun Tetangga). \n \n Secara Geografis sebelah utara berbatasan dengan Kelurahan Ketawanggede dan Dinoyo, selatan dengan Kelurahan Karang Besuki, sebelah barat dengan Kelurahan Dinoyo dan Karang Besuki dam sebelah timur berbatasan dengan Kelurahan Penanggungan. \n \n Kampung Sumbersari menjadi salah satu bagian dari Kampung Lingkar Kampus karena lokasinya yang strategis berada di sekeliling Universitas Brawijaya Veteran. Selain itu, Kampung Sumbersari juga menjadi salah satu daerah banyak hunian kost mahasiswa dan beragam penjual kuliner tradisional tersaji atau dekat dengan pemukiman",
+      "mapsGeneralKampung": "https://maps.app.goo.gl/JcQCU4WWLoHA69AU7",
+      "sejarahKampung": "Sejarah Kampung Sumbersari secara administrasi semula tergabung dalam Kecamatan Klojen sebelum akhirnya menjadi bagian dalam wilayah Kecamatan Lowokwaru. \n \n Sumbersari dalam Kamus Besar Bahasa Indonesia berasal dari rangkaian kata Sumber berarti mengacu pada makna tempat atau asal dan Sari berarti indah dan dapat dimaknai memiliki kaya potensi, jadi dapat dimaknai Sumbersari adalah  Kelurahan dengan tempat yang indah yang kaya potensi.  Filosofinya bahwa Sumbersari ini adalah suatu desa/kelurahan yang  wilayahnya memiliki potensi yang sangat mendukung untuk Usaha Perekonomian, Pendidikan dan kegiatan lainnya yang sangat bermanfaat bagi warga masyarakatnya",
+      "layananMasyarakatKampung": "Untuk pelayanan masyarakat pada Kampung Sumbersari, Sobat KLK dapat mendatangi langsung ke Kantor Kelurahan Sumbersari yang beralamatkan Jl. Sigura - Gura No.31, Sumbersari, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145, Pelayanan Administrasi Kependudukan dan Catatan Sipil di Kelurahan Sumbersari TIDAK DIPUNGUT BIAYA / GRATIS \n Atau Sobat KLK dapat menghubungi melalui nomor telepon kantor 0341-572514 \n \n Selain itu, Sobat KLK juga dapat melalui sistem layanan dan aduan SAMBAT ONLINE Pemerintah Kota Malang di https://sambat.malangkota.go.id",
+      "lokasiKelurahanKampung": "Sobat KLK, bisa mendatangi ke Kantor Kelurahan Sumbersari yang beralamatkan di Jl. Sigura - Gura No.31, Sumbersari, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145.",
+      "mapsKelurahanKampung": " https://maps.app.goo.gl/xfCXddCKYJ8u6vicA",
+      "contactKampung": "Untuk informasi lebih lanjut terkait Kampung Sumbersari, Sobat KLK bisa menghubungi nomor telepon kantor 0341577940 atau mengakses laman resminya di https://kelsumbersari.malangkota.go.id/"
+    },
+    {
+      "name": "Kampung Keramik Dinoyo",
+      "informGeneralKampung": "Kampung Keramik Dinoyo merupakan sebuah kampung wisata di kelurahan di wilayah Kecamatan Lowokwaru, Kota Malang, Jawa Timur yang terdiri dari 7 RW (Rukun Warga) dan 51 RT (Rukun Tetangga). \n \n Secara Geografis sebelah selatan dan timur berbatasan dengan Kelurahan Ketawanggede, selatan juga berbatasan dengan Kelurahan Merjosari, sebelah barat dengan Kelurahan Tlogomas dan sebelah utara berbatasan dengan kelurahan Lowokwaru. \n \n Kampung Keramik Dinoyo memiliki potensi dalam memperkuat sentra kerajinan industri keramik. Sampai saat ini, terhitung ada 24 pengrajin asli keramik Dinoyo dan dimana hasil produksi dari Kampung Keramik Dinoyo beberapa telah menembus pasar ekspor internasional. \n \n Kampung Keramik Dinoyo menjadi salah satu bagian dari Kampung Lingkar Kampus karena lokasinya yang strategis berada di sekeliling Universitas Brawijaya Veteran. Selain terkenal karena industri keramiknya, Kampung Keramik Dinoyo juga mayoritas dihuni oleh mahasiswa pendatang karena banyaknya hunian kost yang disewakan, penjual makanan dan adanya Pasar Dinoyo sehingga memudahkan mobilitas mahasiswa dalam memenuhi kebutuhannya",
+      "mapsGeneralKampung": "https://maps.app.goo.gl/peuf6QQvH1qo3CV9A",
+      "sejarahKampung": "Sejarah Kampung Keramik Dinoyo sudah ada sejak turun temurun dari sentra gerabah. Kampung Wisata Keramik Dinoyo didirikan pada 1930 oleh para perintisnya melalui swadaya masyarakat. Pada mulanya, kampung ini sebagai sentra gerabah tanah liat sawah yang kemudian berkembang hingga tahun 1955 menjadi sentra pembuatan keramik porselen berbahan dasar tanah liat putih. \n \n Hingga saat ini Kampung Keramik Dinoyo sudah menjadi sebuah kampung wisata edukasi yang terus dikembangkan untuk menjaga tradisi kepada generasi turun temurun, termasuk mengenalkan kerajinan keramik kepada masyarakat umum maupun mahasiswa pendatang",
+      "layananMasyarakatKampung": "Untuk pelayanan masyarakat pada Kampung Keramik Dinoyo, Sobat KLK dapat mengakses melalui laman https://keldinoyo.malangkota.go.id/layanan-publik/ atau mendatangi langsung ke Kantor Kelurahan Dinoyo yang beralamatkan Jl. MT. Haryono No.143, Dinoyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65144 \n \n Atau Sobat KLK dapat menghubungi melalui nomor telepon kantor 0341551818 \n \n Selain itu, Sobat KLK juga dapat melalui sistem layanan dan aduan SAMBAT ONLINE Pemerintah Kota Malang di https://sambat.malangkota.go.id",
+      "lokasiKelurahanKampung": "Sobat KLK, bisa mendatangi ke Kantor Kelurahan Dinoyo yang beralamatkan di Jl. MT. Haryono No.143, Dinoyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65144",
+      "mapsKelurahanKampung": "https://maps.app.goo.gl/Uat1rYSbYqDRw6kU9",
+      "contactKampung": "Untuk informasi lebih lanjut terkait Kampung Keramik Dinoyo, Sobat KLK bisa menghubungi nomor telepon kantor (0341) 551818 atau mengakses laman resminya di https://keldinoyo.malangkota.go.id//"
+    },
+    {
+      "name": "Kampung Cempluk",
+      "informGeneralKampung": "Kampung Cempluk merupakan sebuah kampung edukasi wisata dan budaya yang ada di Desa Kalisongo, Kecamatan Dau, Kabupaten Malang, Jawa Timur yang berada di perbukitan sisi utara dari Kota Malang. \n \n Secara Geografis, Desa Kalisongo sebelah timur berdekatan dengan Kelurahan Pisang Candi, sebelah selatan dengan Kelurahan Bandulan, sebelah utara dengan Kelurahan Karang Besuki dan barat dengan Karang Widoro \n  \n Desa Kalisongo memiliki 4 Dusun, diantaranya Dusun Kuso, Dusun Lo’andeng, Dusun Kunci dan Dusun Sumberjo. Dusun Sumberjo merupakan awal yang menjadi cikal bakal munculnya istilah Kampung Cempluk. \n \n Kampung Cempluk menjadi salah satu bagian dari Kampung Lingkar Kampus karena lokasinya yang strategis berada di sekeliling Universitas Brawijaya Kampus 2 atau Dieng. Mulai tahun 2021, dengan berdirinya Universitas Brawijaya Kampus 2 di Kalisongo Dau, membuat letak Kampung Cempluk menjadi lokasi yang strategis untuk hunian kost mahasiswa. Selain itu, Kampung Cempluk juga sebelumnya kental dalam menjaga tradisi kemasyarakatan lokal dengan mengadakan festival tahunan dan banyaknya jajanan tradisional yang masih dijual berpotensi mendukung tradisi dan keberadaan mahasiswa yang bertempat tinggal di sekitar",
+      "mapsGeneralKampung": "https://maps.app.goo.gl/fMf3pCsoHZXdHysCA",
+      "sejarahKampung": "Sejarah Kampung Cempluk secara administrasi awalnya bernama Dusun Sumberjo dimana sebelumnya belum ada listrik masuk ke kampung tersebut dan masih menggunakan lampu teplok atau cempluk. Oleh karena itulah  muncul istilah penamaan Kampung Cempluk.",
+      "layananMasyarakatKampung": "Mohon maaf Kaboo tidak memiliki data akses layanan informasi secara online dari Kampung Cempluk. Untuk pelayanan masyarakat pada Kampung Cempluk, Sobat KLK mungkin dapat mendatangi langsung lokasi Kantor Desa Kalisongo, Kecamatan Dau, Kabupaten Malang",
+      "lokasiKelurahanKampung": "Sobat KLk, bisa mendatangi ke Kantor Desa Kalisongo yang beralamatkan di Jalan Lokanden Lor, Kalisongo, Kec. Dau, Kabupaten Malang, Jawa Timur 65151",
+      "mapsKelurahanKampung": "https://maps.app.goo.gl/9bkLZZ3Xyd4qpXkW9",
+      "contactKampung": "Untuk informasi lebih lanjut terkait Kampung Cempluk atau Desa Kalisongo, Sobat KLK bisa mengakses melalui media sosial instagram @mediapemdeskalisongo"
+    }
+  ],
+
+  "situss" : [
+    {
+      "name": "Situs Watugong",
+      "kampung": "kampung ketawanggede",
+      "informGeneralSitus": "Situs Watugong Ketawanggede terkumpul dan terdiri dari beberapa batu andesit yang berbentuk seperti batu gong, potongan miniatur candi, dan dua buah Yoni yang terbuat dari batu andesit yang sudah rusak. Yoni yang berbentuk kotak itu oleh masyarakat setempat lebih sering disebut sebagai lumpang kotak. \n \n Situs Watugong Ketawanggede merupakan peninggalan agama Hindu, Batu Gong yang kemudian menjadi nama kampung Watu Gong tersebut lebih berbentuk umpak yang digunakan untuk menahan tiang bangunan yang biasanya terbuat dari kayu. \n \nDiperkirakan, keberadaan situs Ketawanggede merupakan peninggalan dari Kerajaan Kanjuruhan. Sebuah kerajaan yang diperkirakan tertua di Jawa Timur dengan penguasa yang terkenal bernama Raja Gajayana. Para ahli memperkirakan jika di sekitar tersebut masih ada peninggalan yang lain misalnya Candi, namun pencarian itu urung dilakukan karena tanah yang ada di sana sudah sepenuhnya milik restoran cepat saji tersebut. \n \n Meski berita keberadaan situs Ketawanggede baru hadir di era tahun pun 2012, nyatanya situs tersebut sudah ada di catatan Belanda di tahun 1907 dan 1927, menurut catatan itu batu-batu itu dulu berserakan di pinggir jalan sebelum dikumpulkan dan disimpan dalam sebuah cungkup. \n \n Kabarnya, dulu di sana juga terdapat tiga buah lingga, arca Ganesha dan arca lembu Nandi. Kini keberadaannya sudah tidak ada karena sudah disimpan di Museum maupun Gedung Kelurahan Ketawanggede. Sayangnya, ketidaktahuan masyarakat dulu tentang benda sejarah juga membuat batu-batu sebesar gong dihancurkan kemudian digunakan untuk membuat rumah, dan yang ada di sana adalah sisa saja",
+      "lokasiSitus": "Situs Watugong berlokasi di Jl. Watugong II No.19, Ketawanggede, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145",
+      "maps": "https://maps.app.goo.gl/iKM5HD8fF2cFiHW56"},
+      {
+        "name": "Situs Punden Kalisongo",
+        "kampung":"kampung cempluk",
+        "informGeneralSitus": "Situs Punden Kalisongo berada di Dusun Sumberejo RI 1 RW 1, tepat di tepi pertigaan Jl. Dieng Atas. \n \n Dalam keberadaannya sekarang, situs ini hanya menyisakan sebuah arca Nandi, sebuah Yoni, sebuah pedestal dari batu sima, sebuah pilar batu, sepotong balok batu berkronogram dan sebuah balik batu polos. Tinggalan arkeologis itu berada dalam cungkup bersahaja ukuran 1,5 X 2 m, dengan tinggi sekitar 2,5 m, yang dilindungi dengan pagar kayu setinggi 0,75 m. Keberadaannya di tepi jalan dan berhimpitan dengan areal rumah tinggal warga. Dilihat dari arah timur posisinya pada lereng atas dari permukaan tanah yang melereng ke arah Kali Metro/Kalisongo, yang letaknya sekitar 300 m) \n",
+        "lokasiSitus": "Situs Punden Kalisongo berlokasi di Jl. Dieng Atas No.10, Sumberjo, Kalisongo, Kec. Dau, Kabupaten Malang, Jawa Timur 65151",
+        "maps": "https://maps.app.goo.gl/i693n2ELm6FAhqSe7"},
+      {
+        "name": "Candi Badut",
+        "kampung": "",
+        "informGeneralSitus": "Candi Badut terletak di Desa Karangbesuki, Kecamatan Dau, Kota Malang, Jawa Timur. Lokasi ini berada di dataran tinggi yang sejuk dan tidak jauh dari pusat Kota Malang \n \n Candi Badut diperkirakan merupakan peninggalan dari Kerajaan Kanjuruhan, yang berdiri pada abad ke-8 Masehi. Candi ini diyakini sebagai candi tertua di Jawa Timur dan memiliki keterkaitan dengan Prasasti Dinoyo (760 M). Menurut sejarah, candi ini dibangun atas perintah Raja Gajayana, penguasa Kerajaan Kanjuruhan. \n \n Candi Badut memiliki pengaruh arsitektur Hindu-Siwaisme dengan gaya khas candi di Jawa Tengah. Berukuran sekitar 7,9 x 7,9 meter dan tinggi sekitar 2,4 meter dan di tengahnya terdapat ruang utama (garbhagriha) yang dulunya diyakini sebagai tempat penyimpanan arca atau lingga-yoni. Keunikan arsitektur dan sejarahnya menjadikannya salah satu destinasi edukasi budaya yang menarik bagi wisatawan dan peneliti sejarah.",
+        "lokasiSitus": "Situs Candi Badut berlokasi di Jl. Raya Candi V No.5D, Doro, Karangwidoro, Kecamatan Dau, Kabupaten Malang, Jawa Timur 65151",
+        "maps": "https://maps.app.goo.gl/zbkjBkzjw7QNW1ps8"
+      }
+      ],
+
+  "kesehatans":  [{
+    "name": "Klinik Universitas Brawijaya",
+    "kategori": "klinik",
+    "gejala": ["sakit umum", "sakit khusus"],
+    "operationalHour": "Klinik Universitas Brawijaya buka dari hari senin-jumat mulai jam 08.00 pagi - 14.30 sore",
+    "kampung": ["Kampung Ketawanggede", "Kampung Sumbersari", "Kampung Keramik Dinoyo"],
+    "contactKesehatan": "Sobat Kaboo dapat menghubungi melalui laman klinik.ub.ac.id atau media sosial instagram @klinik_ub",
+    "lokasiKesehatan": "Klinik Universitas Brawijaya berlokasi di Jalan MT. Haryono, Ketawanggede, Kec. Lowokwaru, Kota Malang, Jawa Timur.",
+    "maps": "https://maps.app.goo.gl/7KpQH3g9go2iS95z6"
+  },{
+    "name": "Klinik Universitas Brawijaya Dieng",
+    "kategori": "klinik",
+    "gejala": ["sakit umum", "sakit khusus"],
+    "operationalHour": "Klinik Universitas Brawijaya Dieng buka dari hari senin-jumat mulai jam 08.00 pagi - 14.30 sore",
+    "kampung": ["Kampung Cempluk"],
+    "contactKesehatan": "Sobat Kaboo dapat menghubungi melalui laman klinik.ub.ac.id atau media sosial instagram @klinik_ub",
+    "lokasiKesehatan": "Klinik Universitas Brawijaya Dieng berlokasi di Universitas Brawijaya Gedung 2, Jalan Dieng Atas, Kunci, Kalisongo, Kec. Dau, Kabupaten Malang, Jawa Timur 65151",
+    "maps": "https://maps.app.goo.gl/xdxmsX5s6fEPL3L98"
+  }, {
+    "name": "Klinik Adi Husada",
+    "kategori": "klinik",
+    "gejala": ["sakit umum"],
+    "operationalHour": "Klinik Adi Husada buka dari hari senin-sabtu mulai jam 08.00 pagi - 19.00 malam dan di hari minggu mulai jam 15.00 sore - 18.00 malam",
+    "kampung": ["Kampung Cempluk"],
+    "contactKesehatan": "Sobat Kaboo dapat menghubungi nomor whatsApp 085184636500",
+    "lokasiKesehatan": "Klinik Adi Husada berlokasi di Jalan Bukit Dieng Permai No.10 Blok A, Pisang Candi, Kec. Sukun, Kota Malang, Jawa Timur 65146",
+    "maps": "https://maps.app.goo.gl/6is1upM8o1xcWGdHA"
+  }, {
+    "name": "Klinik Sumber Trisno",
+    "kategori": "klinik",
+    "gejala": ["sakit umum"],
+    "operationalHour": "Klinik Sumber Trisno buka dari hari senin-jumat mulai jam 08.00 pagi - 18.30 malam dan di hari sabtu mulai jam 08.00 pagi- 11.00 siang",
+    "kampung": ["Kampung Cempluk"],
+    "contactKesehatan": "Sobat Kaboo dapat menghubungi nomor 0341575722 atau mengakses https://seabs.ac.id/klinik-sumber-trisno/",
+    "lokasiKesehatan": "Klinik Sumber Trisno berlokasi di Jl. Esberg VE 5 No.11, Doro, Karangwidoro, Kec. Dau, Kota Malang, Jawa Timur 65151",
+    "maps": "https://maps.app.goo.gl/z874wpoUoHmchsjQA"
+  },{
+    "name": "Rumah Sehat Ibnu Sina",
+    "kategori": "klinik",
+    "gejala": ["sakit umum"],
+    "operationalHour": "Mohon maaf Kaboo tidak memiliki informasi terkait jam operasional atau buka dari Rumah Sehat Ibnu Sina. Mungkin Sobat KLK bisa mendatangi langsung lokasinya di Jl. Kerto Asri, Ketawanggede, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145.",
+    "kampung": ["Kampung Ketawanggede","Kampung Sumbersari", "Kampung Keramik Dinoyo"],
+    "contactKesehatan": "Mohon maaf Kaboo tidak memiliki informasi kontak atau media sosial dari Rumah Sehat Ibnu Sina. Mungkin Sobat KLK bisa mendatangi langsung Rumah Sehat Ibnu Sina",
+    "lokasiKesehatan": "Rumah Sehat Ibnu Sina berada di Jalan Kerto Asri, Ketawanggede, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145",
+    "maps": "https://maps.app.goo.gl/7KpQH3g9go2iS95z6"
+  },{
+    "name": "Klinik Daqu Sehat",
+    "kategori": "klinik",
+    "gejala": ["sakit umum"],
+    "operationalHour": "Klinik Daqu Sehat New buka dari hari setiap hari mulai jam 07.00 pagi - 09.00 malam",
+    "kampung": ["Kampung Ketawanggede", "Kampung Sumbersari", "Kampung Keramik Dinoyo"],
+    "contactKesehatan": "Sobat Kaboo dapat menghubungi melalui 03412991199 atau mengakses media sosial instagram @klinikdaqusehat_malang",
+    "lokasiKesehatan": "Klinik Daqu Sehat New Jalan Sunan Muria No.2, Dinoyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145",
+    "maps": "https://maps.app.goo.gl/aWyPwy1mzWa5DDwR7"
+  },{
+    "name": "Klinik Elfahmi",
+    "kategori": "klinik",
+    "gejala": ["sakit umum"],
+    "operationalHour": "Klinik Elfahmi buka setiap hari mulai dari jam 07.00 pagi - 21.00 malam",
+    "kampung": ["Kampung Ketawanggede", "Kampung Sumbersari"],
+    "contactKesehatan": "Sobat Kaboo dapat menghubungi melalui 087778262320 atau mengakses media sosial instagram @klinikelfahmi",
+    "lokasiKesehatan": "Klinik Elfahmi berada di Jalan Sigura - Gura No.44-46, Sumbersari, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145",
+    "maps": "https://maps.app.goo.gl/T6HJcDELzABWuVxm8"
+  }, {
+    "name": "Puskesmas Dinoyo",
+    "kategori": "puskesmas",
+    "gejala": ["sakit umum"],
+    "operationalHour": "Puskesmas Dinoyo buka pada hari senin - kamis, mulai jam 07.30 pagi - 03.00 sore dan hari jumat-sabtu, mulai jam 07.30 pagi - 11.30 siang",
+    "kampung": ["Kampung Keramik Dinoyo"],
+    "contactKesehatan": "Sobat KLK dapat menghubungi 0341572640, mengakses laman https://puskdinoyo.malangkota.go.id/, media sosial instagram @pkmdinoyomalangkota atau dapat mendatangi langsung Puskesmas Dinoyo",
+    "lokasiKesehatan": "Puskesmas Dinoyo berada di Jalan Mayjend MT Haryono 9 No.13, Dinoyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145",
+    "maps": "https://maps.app.goo.gl/v1Jf54ir8JrM7DW67"
+  }, {
+    "name": "Puskesmas Sumbersari",
+    "kategori": "puskesmas",
+    "gejala": ["sakit umum"],
+    "operationalHour": "Puskesmas Sumbersari buka pada hari senin - kamis, mulai jam 08.00 pagi - 03.00 sore dan hari jumat, mulai jam 08.00 pagi - 11.00 siang",
+    "kampung": ["Kampung Ketawanggede"],
+    "contactKesehatan": "Sobat KLK dapat menghubungi 0341581442 atau dapat mendatangi langsung Puskesmas Pembantu Sumbersari.",
+    "lokasiKesehatan": "Puskemas Sumbersari berada di Jalan Sigura - Gura No.29, Sumbersari, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145",
+    "maps": "https://maps.app.goo.gl/Aye74NJj9h4xuZKH7"
+  }, {
+    "name": "Rumah Sakit Universitas Brawijaya",
+    "kategori": "rumah sakit",
+    "gejala": ["sakit umum", "sakit khusus"],
+    "operationalHour": "Rumah Sakit Universitas Brawijaya buka selama 24 jam penuh untuk layanan UGD dan maaf Kaboo tidak memiliki informasi lebih lanjut terkait jam operasional pelayanan poli kesehatan. Mungkin Sobat KLK dapat mendatangi langsung Rumah Sakit Universitas Brawijaya",
+    "kampung": ["Kampung Ketawanggede", "Kampung Sumbersari", "Kampung Keramik Dinoyo"],
+    "contactKesehatan": "Sobat KLK dapat menghubungi 0341403000, mengakses laman http://rumahsakit.ub.ac.id/,  media sosial instagram @rsub.official",
+    "lokasiKesehatan": "Rumah Sakit Universitas Brawijaya atau RSUB berada di Jl. Soekarno Hatta, Lowokwaru, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141",
+    "maps": "https://maps.app.goo.gl/9cKWcB41cmp6sY5W9"
+  }, {
+    "name": "Rumah Sakit Umum BRI Medika",
+    "kategori": "rumah sakit",
+    "gejala": ["sakit umum", "sakit khusus"],
+    "operationalHour": "Rumah Sakit Umum BRI Medika buka selama 24 jam penuh untuk layanan UGD dan mohon maaf Kaboo tidak memiliki informasi lebih lanjut terkait jam operasional pelayanan poli kesehatan. Mungkin Sobat KLK dapat mendatangi langsung lokasi Rumah Sakit Umum BRI Medika",
+    "kampung": ["Kampung Ketawanggede", "Kampung Sumbersari", "Kampung Keramik Dinoyo"],
+    "contactKesehatan": "Sobat KLK dapat menghubungi 0341580099 atau dapat mengakses media sosial instagram @rsubrimedika",
+    "lokasiKesehatan": "Rumah Sakit Umum BRI Medika berada di Jl. Mayjend Panjaitan No.176, Penanggungan, Kec. Klojen, Kota Malang, Jawa Timur 65113",
+    "maps": "https://maps.app.goo.gl/3NxtzJg1csoVQx3V6"
+  }, {
+    "name": "Rumah Sakit Islam Unisma",
+    "kategori": "rumah sakit",
+    "gejala": ["sakit umum", "sakit khusus"],
+    "operationalHour": "Rumah Sakit Islam Unisma buka selama 24 jam penuh untuk layanan UGD",
+    "kampung": ["Kampung Ketawanggede", "Kampung Sumbersari", "Kampung Keramik Dinoyo"],
+    "contactKesehatan": "Sobat KLK dapat menghubungi 0811-3148-899 atau mendatangi langsung lokasi Rumah Sakit Islam Unisma",
+    "lokasiKesehatan": "Rumah Sakit Islam Unisma berada di Jalan Mayjen Haryono No.139, Dinoyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65144",
+    "maps": "https://maps.app.goo.gl/T6cyYpHQdkJ4FEqp7"
+  }
+    ],
+
+  "kuliners": [
+    {
+      "name": "Sego Ampok",
+      "kategori": "makanan",
+      "jenis": "tradisional",
+      "cuaca": ["panas", "dingin"],
+      "desc": "Sego Ampok merupakan nasi terbuat dari bahan dasar jagung tua yang ditumbuk halus dan dikukus. Sego Ampok sebagai alternatif pengganti padi karena harganya yang relatif murah dan mudah didapatkan. Sego Ampok banyak dijumpai di daerah Jawa Timur dan Jawa Tengah dengan dipadukan lauk pauk dan sambal pada umumnya",
+      "event": [
+        "Festival Kampung Budoyo",
+        "Bazar Kampung Kuliner",
+        "Festival Kampung Cempluk"
+      ],
+      "kampung": ["Kampung Ketawanggede", "Kampung Cempluk"]
+    },
+    {
+      "name": "Nasi Bali",
+      "kategori": "makanan",
+      "jenis": "tradisional",
+      "cuaca": ["panas"],
+      "desc": "Nasi Bali merupakan nasi campur berempah yang dipadukan dengan berbagai lauk pauk, seperti ayam, telur dan sayuran.",
+      "event": ["Bazar Kampung Kuliner"],
+      "kampung": ["Kampung Ketawanggede", "Kampung Keramik Dinoyo"]
+    },
+    {
+      "name": "Nasi Pecel",
+      "kategori": "makanan",
+      "jenis": "tradisional",
+      "cuaca": ["panas"],
+      "desc": "Nasi Pecel merupakan makanan khas Jawa Timur yang terdiri dari nasi putih, sayuran, sambal kacang dengan paduan lauk pauk dan rempeyek",
+      "event": [
+        "Festival Kampung Budoyo",
+        "Bazar Kampung Kuliner",
+        "Festival Kampung Cempluk"
+      ],
+      "kampung": [
+        "Kampung Ketawanggede",
+        "Kampung Keramik Dinoyo",
+        "Kampung Cempluk"
+      ]
+    },
+    {
+      "name": "Ketan",
+      "kategori": "makanan",
+      "jenis": "tradisional",
+      "cuaca": ["panas", "dingin"],
+      "desc": "Ketan merupakan beras yang memiliki tekstur lengket dan rasanya gurih. Dalam penyajiannya ketan saat ini banyak dipadukan dengan susu kental manis, toping seperti meses dan keju",
+      "event": ["Festival Kampung Cempluk"],
+      "kampung": [
+        "Kampung Ketawanggede",
+        "Kampung Keramik Dinoyo",
+        "Kampung Cempluk"
+      ]
+    },
+    {
+      "name": "Kue Putu",
+      "kategori": "makanan",
+      "jenis": "tradisional",
+      "cuaca": ["dingin"],
+      "desc": "Kue Putu merupakan kue tradisional yang terbuat dari tepung beras, gula dan parutan kelapa. Kue Putu memiliki proses pembuatan yang unik dimana dikukus dalam tabung bambu dan memiliki tekstur yang tidak padat",
+      "event": [
+        "Festival Kampung Budoyo",
+        "Bazar Kampung Kuliner",
+        "Festival Kampung Cempluk"
+      ],
+      "kampung": ["Kampung Ketawanggede", "Kampung Cempluk"]
+    },
+    {
+      "name": "Gulali",
+      "kategori": "makanan",
+      "jenis": "tradisional",
+      "cuaca": ["panas"],
+      "desc": "Gulali atau yang dikenal permen kapas atau cotton candy merupakan jajanan tradisional yang terbuat dari gula yang dipekatkan dan dibentuk menyerupai serabut halus dengan rasa yang manis gurih",
+      "event": ["Festival Kampung Budoyo", "Bazar Kampung Kuliner"],
+      "kampung": ["Kampung Ketawanggede"]
+    },
+    {
+      "name": "Klepon",
+      "kategori": "makanan",
+      "jenis": "tradisional",
+      "cuaca": ["dingin"],
+      "desc": "Klepon merupakan jajanan atau kue tradisional berbentuk bulat kecil, berwarna hijau dan bertekstur kenyal yang terbuat dari tepung ketan, gula merah dan kelapa parut. Biasanya klepon selalu dijadikan sebagai hidangan penutup dan disajikan di berbagai acara-acara",
+      "event": [
+        "Festival Kampung Budoyo",
+        "Bazar Kampung Kuliner",
+        "Festival Kampung Cempluk"
+      ],
+      "kampung": ["Kampung Ketawanggede", "Kampung Cempluk"]
+    },
+    {
+      "name": "Cenil",
+      "kategori": "makanan",
+      "jenis": "tradisional",
+      "cuaca": ["dingin"],
+      "desc": "Cenil merupakan kue basah tradisional yang rasanya manis dengan tekstur kenyal dan lembut serta terbuat dari adonan tepung kanji atau singkong. Penjual cenil biasanya dipadukan dengan klepon dan lupis disertai taburan kelapa parut dan larutan gula merah",
+      "event": [
+        "Festival Kampung Budoyo",
+        "Bazar Kampung Kuliner",
+        "Festival Kampung Cempluk"
+      ],
+      "kampung": ["Kampung Ketawanggede", "Kampung Cempluk"]
+    },
+    {
+      "name": "Lupis",
+      "kategori": "makanan",
+      "jenis": "tradisional",
+      "cuaca": ["dingin"],
+      "desc": "Lupis merupakan kue basah tradisional yang beraroma khas daun suji dan terbuat dari ketan, daun pisang, kelapa dan gula merah. Lupis biasanya dipadukan atau disajikan dengan taburan kelapa parut dan sirup gula merah",
+      "event": [
+        "Festival Kampung Budoyo",
+        "Bazar Kampung Kuliner",
+        "Festival Kampung Cempluk"
+      ],
+      "kampung": ["Kampung Ketawanggede", "Kampung Cempluk"]
+    },
+    {
+      "name": "Sawut",
+      "kategori": "makanan",
+      "jenis": "tradisional",
+      "cuaca": ["dingin"],
+      "desc": "Sawut atau pasrah merupakan kuliner berbahan dasar singkong parut dan dikukus sehingga memiliki tekstur yang kenyal. Sawut memiliki cita rasa manis dan gurih serta ditaburi kelapa parut",
+      "event": ["Festival Kampung Budoyo", "Bazar Kampung Kuliner"],
+      "kampung": ["Kampung Ketawanggede"]
+    },
+    {
+      "name": "Es Dawet",
+      "kategori": "minuman",
+      "jenis": "tradisional",
+      "cuaca": ["panas"],
+      "desc": "Es Dawet merupakan minuman segar dengan cita rasa manis dan gurih yang terbuat dari tepung beras, santan, gula merah cair dan es serut",
+      "event": ["Festival Kampung Budoyo", "Bazar Kampung Kuliner"],
+      "kampung": [
+        "Kampung Ketawanggede",
+        "Kampung Keramik Dinoyo",
+        "Kampung Cempluk"
+      ]
+    },
+    {
+      "name": "Es Gandul",
+      "kategori": "minuman",
+      "jenis": "tradisional",
+      "cuaca": ["panas"],
+      "desc": "Es Gandul atau yang lebih dikenal es serut khas Malang yang dibuat mengepal bulat padat dan diberi sirup manis serta tali merang",
+      "event": ["Festival Kampung Budoyo", "Bazar Kampung Kuliner"],
+      "kampung": ["Kampung Ketawanggede"]
+    },
+    {
+      "name": "Jamu Beras Kencur",
+      "kategori": "minuman",
+      "jenis": "tradisional",
+      "cuaca": ["panas", "dingin"],
+      "desc": "Jamu Beras Kencur merupakan minuman herbal tradisional yang terbuat dari beras dan kencur. Jamu ini memiliki rasa yang manis dan aroma herbal yang kuat serta memiliki beberapa manfaat bagi tubuh. Umumnya jamu beras kencur dapat dinikmati saat cuaca dingin, namun juga dapat dipadukan dengan es batu ketika siang hari",
+      "event": [
+        "Festival Kampung Budoyo",
+        "Bazar Kampung Kuliner",
+        "Festival Kampung Cempluk"
+      ],
+      "kampung": [
+        "Kampung Ketawanggede",
+        "Kampung Keramik Dinoyo",
+        "Kampung Cempluk"
+      ]
+    },
+    {
+      "name": "Jamu Kunir Madu",
+      "kategori": "minuman",
+      "jenis": "tradisional",
+      "cuaca": ["panas", "dingin"],
+      "desc": "Jamu Kunir Madu merupakan minuman herbal yang terbuat dari kunyit dan madu. Minuman ini dipercaya memiliki beragam manfaat kesehatan, salah satunya meningkatkan sistem imun tubuh. Seperti jamu beras kencur, jamu kunir madu juga dapat dinikmati dengan es batu atau secara langsung untuk menghangatkan tubuh",
+      "event": [
+        "Festival Kampung Budoyo",
+        "Bazar Kampung Kuliner",
+        "Festival Kampung Cempluk"
+      ],
+      "kampung": [
+        "Kampung Ketawanggede",
+        "Kampung Keramik Dinoyo",
+        "Kampung Cempluk"
+      ]
+    },
+    {
+      "name": "Wedang Angsle",
+      "kategori": "minuman",
+      "jenis": "tradisional",
+      "cuaca": ["dingin"],
+      "desc": "Wedang Angsle merupakan minuman khas Jawa Timur yang berkuah santan jahe hangat. Minuman ini umumnya berisikan beras ketan, mutiara, kacang hijau, roti tawar, kacang tanah goreng dan kuah hangat yang cocok untuk menghangatkan tubuh",
+      "event": [
+        "Festival Kampung Budoyo",
+        "Bazar Kampung Kuliner",
+        "Festival Kampung Cempluk"
+      ],
+      "kampung": [
+        "Kampung Ketawanggede",
+        "Kampung Keramik Dinoyo",
+        "Kampung Cempluk"
+      ]
+    }
+  ]
+}

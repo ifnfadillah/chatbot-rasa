@@ -1,0 +1,48 @@
+language: "id"
+
+pipeline:
+- name: WhitespaceTokenizer
+- name: RegexFeaturizer
+  case_sensitive: false
+  patterns:
+  - pattern: "festival.*kampung"
+    name: event
+  - pattern: "^kampung(?!.*festival)"
+    name: kampung
+- name: RegexEntityExtractor
+  case_sensitive: false
+  use_word_boundaries: true
+  use_lookup_tables: true
+  use_regexes: true
+  remove_duplicates: true
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1   
+  max_ngram: 4
+- name: DIETClassifier
+  constrain_similarities: true
+  entity_recognition: true
+  entity_recognition_mode: "exclusive"
+  use_regexes: false
+  epochs: 100
+- name: EntitySynonymMapper
+- name: ResponseSelector
+  scale_loss: true
+  epochs: 100
+- name: FallbackClassifier
+  threshold: 0.5
+  ambiguity_threshold: 0.3
+
+policies:
+- name: MemoizationPolicy
+- name: RulePolicy
+- name: UnexpecTEDIntentPolicy
+  max_history: 5
+  epochs: 100
+- name: TEDPolicy
+  max_history: 5
+  epochs: 100
+  constrain_similarities: true
+assistant_id: 20250305-225207-antique-stage

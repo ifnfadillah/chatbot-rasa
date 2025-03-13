@@ -1,0 +1,278 @@
+version: "3.1"
+
+rules:
+
+#DEFAULT STATIC RESPONSES
+- rule: Bot greets first at start of conversation
+  conversation_start: true 
+  steps:
+    - action: action_get_time_greeting
+    - action: utter_greet
+    - action: action_provide_quick_ask
+
+- rule: Respond to user greeting
+  steps:
+    - intent: greet
+    - action: action_get_time_greeting
+    - action: utter_greet
+    - action: action_provide_quick_ask
+
+- rule: Happy path respon with another question
+  steps:
+    - intent: affirm
+    - action: utter_default
+    - action: action_provide_quick_ask
+
+- rule: Sad path respon with another question
+  steps:
+    - intent: deny
+    - action: utter_default
+    - action: action_provide_quick_ask
+
+- rule: Respond to goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye 
+
+- rule: handle_nlu_fallback
+  steps:
+    - intent: nlu_fallback
+    - action: utter_fallback
+
+## KLK DATA
+- rule: Ask KLK intro
+  steps:
+    - intent: tanya_general_klk
+    - action: utter_informasi_umum_klk
+    - action: action_provide_quick_ask
+
+- rule: Ask KLK History
+  steps:
+    - intent: tanya_sejarah_klk
+    - action: utter_sejarah_klk
+    - action: action_provide_quick_ask
+
+- rule: Ask KLK Event
+  steps:
+    - intent: tanya_event_klk
+    - action: action_get_event_klk
+    - action: action_provide_quick_ask
+
+- rule: Ask KLK Situs
+  steps:
+    - intent: tanya_situs_klk
+    - action: action_get_situs_klk
+    - action: action_provide_quick_ask
+
+- rule: Ask KLK Layanan Kesehatan
+  steps:
+    - intent: tanya_layanan_kesehatan_klk
+    - action: action_get_layanan_kesehatan_klk
+    - action: action_provide_quick_ask
+
+- rule: Ask KLK Berita
+  steps:
+    - intent: tanya_berita_klk
+    - action: action_get_berita_klk
+
+- rule: Ask KLK Contact
+  steps:
+    - intent: tanya_contact_klk
+    - action: utter_contact_klk
+
+
+## EVENT DATA
+- rule: Ask Event Intro
+  steps:
+    - intent: tanya_general_event
+    - action: action_get_inform_general_event
+    - action: action_provide_quick_ask
+
+- rule: Ask Event Tujuan
+  steps:
+    - intent: tanya_tujuan_event
+    - action: action_get_tujuan_event
+    - action: action_provide_quick_ask
+
+- rule: Ask Event Sejarah
+  steps:
+    - intent: tanya_sejarah_event
+    - action: action_get_sejarah_event
+    - action: action_provide_quick_ask
+
+- rule: Ask Event Tanggal
+  steps:
+    - intent: tanya_tanggal_event
+    - action: action_get_tanggal_event
+    - action: action_provide_quick_ask
+
+- rule: Ask Event Lokasi
+  steps:
+    - intent: tanya_lokasi_event
+    - action: action_get_lokasi_event
+    - action: action_provide_quick_ask
+
+- rule: Ask Event Kegiatan
+  steps:
+    - intent: tanya_kegiatan_event
+    - action: action_get_kegiatan_event
+    - action: action_provide_quick_ask
+
+- rule: Ask Event Berita
+  steps:
+    - intent: tanya_berita_event
+    - action: action_get_berita_event
+    - action: action_provide_quick_ask
+
+- rule: Ask Event Contact
+  steps:
+    - intent: tanya_contact_event
+    - action: action_get_contact_event
+
+- rule: Ask Kuliner Location Event 
+  steps:
+    - intent: tanya_kuliner_lokasi_event
+    - action: action_get_kuliner_lokasi_event
+    - action: action_provide_quick_ask
+
+- rule: Ask Kuliner Recommendation Based on Cuaca Event
+  steps:
+    - intent: tanya_rekomendasi_kuliner_berdasarkan_cuaca_event
+    - action: action_get_rekomendasi_kuliner_berdasarkan_cuaca_event
+    - action: action_provide_quick_ask
+
+
+##KAMPUNG DATA
+- rule: Ask Kampung Intro
+  steps:
+    - intent: tanya_general_kampung
+    - action: action_get_inform_general_kampung
+    - action: action_provide_quick_ask
+
+- rule: Ask Sejarah Kampung
+  steps:
+    - intent: tanya_sejarah_kampung
+    - action: action_get_sejarah_kampung
+    - action: action_provide_quick_ask
+
+- rule: Ask Layanan Masyarakat Lokasi Kampung
+  steps:
+    - intent: tanya_layanan_masyarakat_kampung
+    - action: action_get_layanan_masyarakat_kampung
+    - action: action_provide_quick_ask
+
+- rule: Ask Layanan Kesehatan Lokasi Kampung 
+  steps:
+    - intent: tanya_layanan_kesehatan_lokasi_kampung
+    - action: action_get_layanan_kesehatan_lokasi_kampung
+    - action: action_provide_quick_ask
+
+- rule: Ask Kategori Layanan Kesehatan Lokasi Kampung
+  steps:
+    - intent: tanya_kategori_layanan_kesehatan_lokasi_kampung
+    - action: action_get_kategori_layanan_kesehatan_lokasi_kampung
+    - action: action_provide_quick_ask
+  
+- rule: Ask Jenis Gejala Layanan Kesehatan Lokasi Kampung
+  steps:
+    - intent: tanya_jenis_gejala_layanan_kesehatan_lokasi_kampung
+    - action: action_get_jenis_gejala_layanan_kesehatan_lokasi_kampung
+    - action: action_provide_quick_ask
+
+- rule: Ask Situs Kampung
+  steps:
+    - intent: tanya_situs_lokasi_kampung
+    - action: action_get_situs_lokasi_kampung
+    - action: action_provide_quick_ask
+
+- rule: Ask Event Lokasi Kampung
+  steps:
+    - intent: tanya_event_lokasi_kampung
+    - action: action_get_event_lokasi_kampung
+    - action: action_provide_quick_ask
+
+- rule: Ask Kuliner Lokasi Kampung
+  steps:
+    - intent: tanya_kuliner_lokasi_kampung
+    - action: action_get_kuliner_lokasi_kampung
+    - action: action_provide_quick_ask
+
+- rule: Ask Kuliner Recommendation Based on Cuaca Kampung
+  steps:
+    - intent: tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung
+    - action: action_get_rekomendasi_kuliner_berdasarkan_cuaca_kampung
+    - action: action_provide_quick_ask
+  
+- rule: Ask Lokasi Kelurahan Kampung
+  steps:
+    - intent: tanya_lokasi_kelurahan_kampung
+    - action: action_get_lokasi_kelurahan_kampung
+    - action: action_provide_quick_ask
+
+- rule: Ask Berita Kampung
+  steps:
+    - intent: tanya_berita_kampung
+    - action: action_get_berita_kampung
+    - action: action_provide_quick_ask
+
+- rule: Ask Contact Kampung
+  steps:
+    - intent: tanya_contact_kampung
+    - action: action_get_contact_kampung
+
+
+##KULINER DATA
+- rule: Ask General Kuliner
+  steps:
+    - intent: tanya_general_kuliner
+    - action: action_get_inform_general_kuliner
+    - action: action_provide_quick_ask
+
+- rule: Ask Kuliner Recommendation Based on Cuaca
+  steps:
+    - intent: tanya_rekomendasi_kuliner_berdasarkan_cuaca
+    - action: action_get_rekomendasi_kuliner_berdasarkan_cuaca
+    - action: action_provide_quick_ask
+
+## SITUS DATA
+- rule: Ask General Situs
+  steps:
+    - intent: tanya_general_situs
+    - action: action_get_inform_general_situs
+    - action: action_provide_quick_ask
+
+- rule: Ask Lokasi Situs
+  steps:
+    - intent: tanya_lokasi_situs
+    - action: action_get_lokasi_situs
+    - action: action_provide_quick_ask
+
+## LAYANAN KESEHATAN DATA
+- rule: Ask Kategori Layanan Kesehatan
+  steps:
+    - intent: tanya_kategori_layanan_kesehatan
+    - action: action_get_kategori_layanan_kesehatan
+    - action: action_provide_quick_ask
+
+- rule: Ask Jenis Gejala Layanan Kesehatan
+  steps:
+    - intent: tanya_jenis_gejala_layanan_kesehatan
+    - action: action_get_jenis_gejala_layanan_kesehatan
+    - action: action_provide_quick_ask
+
+- rule: Ask Lokasi Layanan Kesehatan
+  steps:
+    - intent: tanya_lokasi_layanan_kesehatan
+    - action: action_get_lokasi_layanan_kesehatan
+
+- rule: Ask Layanan Kesehatan Jam Operasional
+  steps:
+    - intent: tanya_jam_operasional_layanan_kesehatan
+    - action: action_get_jam_operasional_layanan_kesehatan
+    - action: action_provide_quick_ask
+
+- rule: Ask Contact Layanan Kesehatan
+  steps:
+    - intent: tanya_contact_layanan_kesehatan
+    - action: action_get_contact_layanan_kesehatan
+

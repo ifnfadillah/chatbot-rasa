@@ -1,0 +1,274 @@
+version: "3.1"
+
+intents:
+  - greet
+  - affirm
+  - deny
+  - goodbye
+  - nlu_fallback
+  # KLK
+  - tanya_general_klk
+  - tanya_sejarah_klk
+  - tanya_event_klk
+  - tanya_situs_klk
+  - tanya_layanan_kesehatan_klk
+  - tanya_berita_klk
+  - tanya_contact_klk
+  # EVENT
+  - tanya_general_event
+  - tanya_event_lokasi_kampung
+  - tanya_tujuan_event
+  - tanya_sejarah_event
+  - tanya_tanggal_event
+  - tanya_lokasi_event
+  - tanya_kegiatan_event
+  - tanya_berita_event
+  - tanya_contact_event
+ # KULINER
+  - tanya_general_kuliner
+  - tanya_kuliner_lokasi_event
+  - tanya_kuliner_lokasi_kampung
+  - tanya_rekomendasi_kuliner_berdasarkan_cuaca
+  - tanya_rekomendasi_kuliner_berdasarkan_cuaca_event
+  - tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung
+  # KAMPUNG
+  - tanya_general_kampung
+  - tanya_sejarah_kampung
+  - tanya_layanan_masyarakat_kampung
+  - tanya_layanan_kesehatan_lokasi_kampung
+  - tanya_lokasi_kelurahan_kampung
+  - tanya_berita_kampung
+  - tanya_contact_kampung
+  # SITUS
+  - tanya_general_situs
+  - tanya_lokasi_situs
+  - tanya_situs_lokasi_kampung
+  # LAYANAN KESEHATAN
+  - tanya_kategori_layanan_kesehatan
+  - tanya_kategori_layanan_kesehatan_lokasi_kampung
+  - tanya_jenis_gejala_layanan_kesehatan
+  - tanya_jenis_gejala_layanan_kesehatan_lokasi_kampung
+  - tanya_lokasi_layanan_kesehatan
+  - tanya_jam_operasional_layanan_kesehatan
+  - tanya_contact_layanan_kesehatan
+
+responses:
+
+#DEFAULT DATA
+  utter_greet:
+  - text: "Halo selamat {time} Sobat KLK! Saya adalah Kaboo, Chatbot informasi Kampung Lingkar Kampus. Ada yang bisa saya bantu?"
+  - text: "Hi selamat{time} Sobat KLK! Selamat datang di layanan informasi Kampung Lingkar Kampus, Saya Kaboo siap membantu Anda. Apa yang ingin Anda ketahui?"
+  - text: "Selamat {time}, selamat datang Sobat KLK! Saya Kaboo siap membantu Anda mencari informasi tentang Kampung Lingkar Kampus. Apa yang bisa Kaboo bantu?"
+
+  utter_fallback:
+  - text: "Maaf Kaboo kurang memahami maksut pertanyaannya. Bisakah Sobat KLK memberikan pertanyaan lebih jelas dan detail?"
+
+  utter_default:
+  - text: "Apakah ada pertanyaan lain seputar Kampung Lingkar Kampus?"  
+  - text: "Ada yang masih ingin ditanyakan lagi kepada Kaboo?"  
+  - text: "Jika ada pertanyaan lain, Kaboo siap membantu. Ada yang bisa dibantu?"  
+
+  utter_goodbye:
+  - text: "Terima kasih telah bertanya seputar Kampung Lingkar Kampus. Dengan senang hati Kaboo akan membantu Anda lain kesempatan. Sampai jumpa!"
+  - text: "Sampai jumpa! Jangan ragu untuk bertanya lagi jika ada yang ingin diketahui tentang Kampung Lingkar Kampus"
+  - text: "Terima kasih sudah bertanya kepada Kaboo, semoga informasi yang diberikan bermanfaat. Sampai bertemu lagi dan ditunggu kedatangannya di event-event Kampung Lingkar Kampus!"
+  - text: "Terima kasih atas kunjungannya. Kaboo selalu siap membantu Anda lain waktu. Sampai jumpa!"
+
+#KLK DATA
+  utter_informasi_umum_klk:
+  - text: "Kampung Lingkar Kampus (KLK) merupakan program dibawah naungan Jaringan Kampung (Japung) Nusantara dalam memberdayakan kampung-kampung di sekitar Universitas Brawijaya, seperti Kampung Ketawanggede, Kampung Keramik Dinoyo & Kampung Cempluk Kalisongo"
+  - text: "Kampung Lingkar Kampus hadir sebagai sebagai formulasi sistem komunikasi sosial kemasyarakatan antara mahasiswa, akademisi dan masyarakat kampung-kampung sekitar Universitas Brawijaya Malang, seperti Kampung Ketawanggede, Kampung Keramik Dinoyo & Kampung Cempluk Kalisongo"
+  - text: "Kampung Lingkar Kampus merupakan program yang membantu mahasiswa dalam mengenal dinamika sosial-ekonomi melalui sejarah, kesenian budaya, pelayanan informasi kampung, layanan kesehatan dan kuliner yang ada di kampung-kampung sekitar kampus Universitas Brawijaya, seperti Kampung Ketawanggede, Kampung Keramik Dinoyo & Kampung Cempluk Kalisongo "
+
+  utter_sejarah_klk:
+  - text: "Program Kampung Lingkar Kampus (KLK) berawal dari inisiatif yang muncul dalam Festival Kampung Cempluk di Desa Kalisongo, Kecamatan Dau. Festival ini menyoroti kehidupan sosial dan budaya kampung yang berada di sekitar Universitas Brawijaya (UB) serta menyoroti kurangnya interaksi antara mahasiswa pendatang dan warga setempat."
+  - text: "Seiring berkembangnya UB dan meningkatnya jumlah mahasiswa, muncul fenomena bahwa rumah-rumah warga di sekitar kampus lebih berorientasi sebagai aset bisnis kos-kosan dibandingkan sebagai bagian dari lingkungan sosial yang hidup. Mahasiswa hanya sekadar membayar sewa tanpa adanya keterlibatan aktif dengan masyarakat sekitar. Hal ini menyebabkan minimnya interaksi sosial antara penduduk asli dan mahasiswa yang datang dan pergi setiap tahun. \n Melihat kondisi ini, program KLK dirancang untuk membangun sinergi antara kampus dan masyarakat sekitar, menciptakan hubungan yang lebih erat antara mahasiswa dan warga, serta menjadikan kawasan sekitar kampus lebih inklusif dan saling menguntungkan. Program ini berfokus pada pemberdayaan masyarakat, pelestarian budaya lokal, dan pembangunan sosial ekonomi berbasis komunitas di sekitar UB."
+
+  utter_contact_klk:
+  - text: "Sobat Kaboo bisa ikut berpartisipasi dengan mendatangi event atau festival program-program Kampung Lingkar Kampus dan mendapatkan informasi baik secara langsung maupun melalui media sosial instagram dan youtube @vokasiub"
+
+actions:
+  - action_get_time_greeting
+  - action_provide_quick_ask
+  #KLK
+  - action_get_event_klk
+  - action_get_situs_klk
+  - action_get_layanan_kesehatan_klk
+  #EVENT
+  - action_get_inform_general_event
+  - action_get_tujuan_event
+  - action_get_sejarah_event
+  - action_get_tanggal_event
+  - action_get_lokasi_event
+  - action_get_event_lokasi_kampung
+  - action_get_kegiatan_event
+  - action_get_contact_event
+  #KULINER
+  - action_get_inform_general_kuliner
+  - action_get_kuliner_lokasi_event
+  - action_get_kuliner_lokasi_kampung
+  - action_get_rekomendasi_kuliner_berdasarkan_cuaca
+  - action_get_rekomendasi_kuliner_berdasarkan_cuaca_event
+  - action_get_rekomendasi_kuliner_berdasarkan_cuaca_kampung
+  #KAMPUNG
+  - action_get_inform_general_kampung
+  - action_get_sejarah_kampung
+  - action_get_layanan_masyarakat_kampung
+  - action_get_layanan_kesehatan_lokasi_kampung
+  - action_get_kategori_layanan_kesehatan_lokasi_kampung
+  - action_get_jenis_gejala_layanan_kesehatan_lokasi_kampung
+  - action_get_lokasi_kelurahan_kampung
+  - action_get_contact_kampung
+  #SITUS
+  - action_get_inform_general_situs
+  - action_get_lokasi_situs
+  - action_get_situs_lokasi_kampung
+  #LAYANAN_KESEHATAN
+  - action_get_kategori_layanan_kesehatan
+  - action_get_jenis_gejala_layanan_kesehatan
+  - action_get_lokasi_layanan_kesehatan
+  - action_get_jam_operasional_layanan_kesehatan
+  - action_get_contact_layanan_kesehatan
+
+entities:
+  - event
+  - situs
+  - kuliner
+  - kategori
+  - cuaca
+  - kampung
+  - gejala
+  - kesehatan
+
+slots:
+  time:
+    type: text
+    mappings:
+    - type: custom
+      action: action_get_time_greeting
+
+  inform_general_event:
+    type: text
+    mappings:
+    - type: custom
+      action: action_get_inform_general_event
+
+  tujuan_event:
+    type: text
+    mappings:
+    - type: custom
+      action: action_get_tujuan_event
+
+  sejarah_event:
+    type: text
+    mappings:
+    - type: custom
+      action: action_get_sejarah_event
+
+  tanggal_event:
+    type: text
+    mappings:
+    - type: custom
+      action: action_get_tanggal_event
+
+  lokasi_event:
+    type: text
+    mappings:
+    - type: custom
+      action: action_get_lokasi_event
+
+  kegiatan_event:
+    type: text
+    mappings:
+    - type: custom
+      action: action_get_kegiatan_event
+
+  contact_event:
+    type: text
+    mappings:
+    - type: custom
+      action: action_get_contact_event
+  
+  kuliner_lokasi_event:
+    type: text
+    mappings:
+    - type: custom
+      action: action_get_kuliner_lokasi_event
+
+  kuliner_lokasi_kampung:
+    type: text
+    mappings:
+    - type: custom
+      action: action_get_kuliner_lokasi_kampung
+
+  cuaca:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: cuaca
+
+  event:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: event
+  
+  kampung:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: kampung
+    
+  kategori:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: kategori
+  
+  kuliner:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: kuliner
+
+  situs:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: situs
+
+  gejala:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: gejala
+
+  kesehatan:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: kesehatan
+  
+  last_entity_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: custom
+      
+  last_entity_value:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: custom
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
