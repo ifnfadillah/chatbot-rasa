@@ -1,23 +1,21 @@
-# Ignore Python cache
+# Virtual Environment
+.venv/
+venv/
+env/
+.rasa/
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
 
 # Ignore logs
 *.log
 
-# Ignore virtual environments
-.venv/
-env/
-
-# Ignore data files
-*.csv
-*.sqlite3
-*.json
-
-# Ignore models
-models/
-*.h5
-*.pkl
-
-# Ignore VS Code settings
-.vscode/
+# Data files yang besar
+data/*.json
