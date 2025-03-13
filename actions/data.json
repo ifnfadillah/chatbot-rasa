@@ -1,15 +1,15 @@
 {
   "intents": [
     {
-      "greet": ["Apa itu Program Kampung Lingkar Kampus?", "Bagaimana sejarah adanya Kampung Lingkar Kampus?", "Ada event atau festival apa saja di Kampung Lingkar Kampus?", "Ada situs-situs apa saja di sekitar?", "Apa Media sosial Kampung Lingkar Kampus?", "Layanan Kesehatan di Sekitar"]
+      "greet": ["Apa itu Program Kampung Lingkar Kampus?", "Bagaimana sejarah adanya Kampung Lingkar Kampus?", "Event-event Kampung Lingkar Kampus?", "Ada situs-situs apa saja di sekitar?", "Apa Media sosial Kampung Lingkar Kampus?", "Layanan Kesehatan di Sekitar"]
     },{
       "affirm":["Iya", "Tidak"]
     }, {
       "deny": ["Iya", "Tidak"]
     },{
-      "tanya_general_klk": ["Bagaimana sejarah adanya Kampung Lingkar Kampus?", "Ada event atau festival apa saja di Kampung Lingkar Kampus?", "Ada situs-situs apa saja di sekitar?", "Apa Media sosial Kampung Lingkar Kampus?", "Layanan Kesehatan di Sekitar"]
+      "tanya_general_klk": ["Bagaimana sejarah adanya Kampung Lingkar Kampus?", "Event-event Kampung Lingkar Kampus?", "Ada situs-situs apa saja di sekitar?", "Apa Media sosial Kampung Lingkar Kampus?", "Layanan Kesehatan di Sekitar"]
     },{
-      "tanya_sejarah_klk": ["Apa itu Program Kampung Lingkar Kampus?", "Kampung Cempluk", "Ada event atau festival apa saja di Kampung Lingkar Kampus?", "Ada situs-situs apa saja di sekitar?", "Apa Media sosial Kampung Lingkar Kampus?", "Layanan Kesehatan di Sekitar"]
+      "tanya_sejarah_klk": ["Apa itu Program Kampung Lingkar Kampus?", "Kampung Cempluk", "Event-event Kampung Lingkar Kampus?", "Ada situs-situs apa saja di sekitar?", "Apa Media sosial Kampung Lingkar Kampus?", "Layanan Kesehatan di Sekitar"]
     },{
       "tanya_event_klk": ["Apa itu Festival Kampung Budoyo", "Apa itu Festival Keramik Dinoyo", "Apa itu Festival Kampung Cempluk", "Apa itu Bazar Kampung Kuliner", "Apa itu Festival Kali Brantas"]
     },{

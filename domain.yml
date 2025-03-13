@@ -57,7 +57,7 @@ responses:
 #DEFAULT DATA
   utter_greet:
   - text: "Halo selamat {time} Sobat KLK! Saya adalah Kaboo, Chatbot informasi Kampung Lingkar Kampus. Ada yang bisa saya bantu?"
-  - text: "Hi selamat{time} Sobat KLK! Selamat datang di layanan informasi Kampung Lingkar Kampus, Saya Kaboo siap membantu Anda. Apa yang ingin Anda ketahui?"
+  - text: "Hi selamat {time} Sobat KLK! Selamat datang di layanan informasi Kampung Lingkar Kampus, Saya Kaboo siap membantu Anda. Apa yang ingin Anda ketahui?"
   - text: "Selamat {time}, selamat datang Sobat KLK! Saya Kaboo siap membantu Anda mencari informasi tentang Kampung Lingkar Kampus. Apa yang bisa Kaboo bantu?"
 
   utter_fallback:
