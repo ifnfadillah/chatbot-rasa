@@ -1,10 +1,17 @@
 # Virtual Environment
+.venv/
 venv/
 env/
 
-# Cache files
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
 
 # Model files
 models/
@@ -19,5 +26,4 @@ models/
 *.log
 
 # Data files yang besar
-data/*.csv
 data/*.json
