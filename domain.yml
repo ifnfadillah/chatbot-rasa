@@ -12,7 +12,7 @@ intents:
   - tanya_event_klk
   - tanya_situs_klk
   - tanya_layanan_kesehatan_klk
-  - tanya_berita_klk
+  - tanya_kuliner_klk
   - tanya_contact_klk
   # EVENT
   - tanya_general_event
@@ -22,7 +22,6 @@ intents:
   - tanya_tanggal_event
   - tanya_lokasi_event
   - tanya_kegiatan_event
-  - tanya_berita_event
   - tanya_contact_event
  # KULINER
   - tanya_general_kuliner
@@ -37,7 +36,6 @@ intents:
   - tanya_layanan_masyarakat_kampung
   - tanya_layanan_kesehatan_lokasi_kampung
   - tanya_lokasi_kelurahan_kampung
-  - tanya_berita_kampung
   - tanya_contact_kampung
   # SITUS
   - tanya_general_situs
@@ -93,6 +91,7 @@ actions:
   #KLK
   - action_get_event_klk
   - action_get_situs_klk
+  - action_get_kuliner_klk
   - action_get_layanan_kesehatan_klk
   #EVENT
   - action_get_inform_general_event

@@ -98,6 +98,19 @@ nlu:
     - apa saja peninggalan purbakala yang ada di klk?
     - ada situs-situs apa saja di klk?
 
+- intent: tanya_kuliner_klk
+  examples: |
+    - apa saja kuliner yang ada di klk?
+    - ada kuliner apa saja di klk?
+    - kuliner apa saja yang ada di sekitar kampus universitas brawijaya?
+    - ada kuliner apa saja di sekitar kampus universitas brawijaya?
+    - [makanan](kategori) apa saja yang ada di klk?
+    - ada [makanan](kategori) apa saja di klk?
+    - [minuman](kategori) apa saja yang ada di klk?
+    - ada [minuman](kategori) apa saja di klk?
+    - [makanan](kategori) apa saja yang ada di sekitar kampus universitas brawijaya?
+    - [minuman](kategori) apa saja yang ada di sekitar kampus universitas brawijaya?
+
 - intent: tanya_layanan_kesehatan_klk
   examples: | 
     - apa saja layanan kesehatan yang ada di sekitar kampung lingkar kampus?

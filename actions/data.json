@@ -17,6 +17,8 @@
     },{
       "tanya_layanan_kesehatan_klk": ["Kontak Pendaftaran Periksa di Klinik Universitas Brawijaya", "Dimana Lokasi Puskemas Dinoyo", "Jam operasional Klinik UB", "Dimana lokasi Klinik Daqu Sehat", "Saya mengalami gejala sakit kepala, rekomendasi dimana saya periksa?", "Saya mengalami gejala flu, dimana saya bisa berobat?"]
     },{
+      "tanya_kuliner_klk": ["Apa itu es dawet?", "Apa itu klepon?", "Apa itu jamu beras kencur?", "Apa itu cenil?", "Apa itu sego empok?" ]
+    },{
       "tanya_kategori_layanan_kesehatan": ["Saya mengalami gejala demam, dimana saya harus periksa", "Maag saya kambuh, dimana saya dapat periksa", "Dimana tempat periksa sakit gigi?"]
     } 
   ],

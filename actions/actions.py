@@ -262,39 +262,38 @@ class ActionGetLayananKesehatan(Action):
         dispatcher.utter_message(json_message=response_text)
         
         return []
+
+class ActionGetKuliner(Action):
+    def name(self) -> Text:
+        return "action_get_kuliner_klk"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict]:
+        kategori_kuliner = next(tracker.get_latest_entity_values("kategori"), None)
+        
+        if kategori_kuliner:
+            kategori_kuliner = kategori_kuliner.casefold().strip()
+            filtered_kuliners = [kuliner for kuliner in kuliners_data if kuliner["kategori"].casefold() == kategori_kuliner]
+        else:
+            filtered_kuliners = kuliners_data  # Tampilkan semua kuliner jika tidak ada kategori
+        
+        if filtered_kuliners:
+            response_text = {
+                "status": "success",
+                "kategori": kategori_kuliner if kategori_kuliner else "Semua Kategori",
+                "text_upper": f"Berikut adalah {kategori_kuliner if kategori_kuliner else 'kuliner'} yang tersedia: \n \n",
+                "list": [
+                    {"name": kuliner["name"], "desc": kuliner["desc"]} for kuliner in filtered_kuliners
+                ],
+                "text_under": f"Dan masih banyak lagi {kategori_kuliner if kategori_kuliner else 'kuliner'} yang tersedia!"
+            }
+            dispatcher.utter_message(json_message=response_text)
+        else:
+            dispatcher.utter_message(
+                json_message={"status": "error", "message": f"Maaf, tidak ditemukan {kategori_kuliner if kategori_kuliner else 'kuliner'} yang tersedia."}
+            )
+
+        return []
     
-# BERITA KLK
-# class ActionGetBerita(Action):
-#     def name(self):
-#         return "action_get_berita_klk"
-
-#     def run(self, dispatcher, tracker, domain):
-#         # Get API from .env
-#         openai.api_key = os.getenv("OPENAI_API_KEY")
-
-#         if not openai.api_key:
-#             dispatcher.utter_message(text="API Key tidak ditemukan. Pastikan file .env sudah dikonfigurasi.")
-#             return []
-
-#         # Prompt to APIs
-#         prompt_text = "Berikan ringkasan berita terbaru tentang Kampung Lingkar Kampus (KLK) sertakan list dan link sumber beritanya."
-
-#         try:
-#             response = openai.ChatCompletion.create(
-#                 model="gpt-4",
-#                 messages=[{"role": "system", "content": prompt_text}]
-#             )
-
-#             berita = response["choices"][0]["message"]["content"].strip()
-
-#         except Exception as e:
-#             berita = "Maaf, saya tidak dapat mengambil berita saat ini."
-
-#         dispatcher.utter_message(text=f"Berita terbaru KLK: {berita}")
-#         return []
-
-
-
 ##### DATA EVENT or FESTIVAL
 #GENERAL
 class ActionInformGeneralEvent(Action):
@@ -543,7 +542,7 @@ class ActionKulinerLokasiEvent(Action):
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict]:
         event_name = next(tracker.get_latest_entity_values("event"), None)
-        kategori_kuliner = next(tracker.get_latest_entity_values("kategor"), None)
+        kategori_kuliner = next(tracker.get_latest_entity_values("kategori"), None)
 
         if not event_name:
             dispatcher.utter_message(

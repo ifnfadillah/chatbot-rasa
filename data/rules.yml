@@ -70,10 +70,11 @@ rules:
     - action: action_get_layanan_kesehatan_klk
     - action: action_provide_quick_ask
 
-- rule: Ask KLK Berita
+- rule: Ask KLK Kuliner
   steps:
-    - intent: tanya_berita_klk
-    - action: action_get_berita_klk
+    - intent: tanya_kuliner_klk
+    - action: action_get_kuliner_klk
+    - action: action_provide_quick_ask
 
 - rule: Ask KLK Contact
   steps:
@@ -116,12 +117,6 @@ rules:
   steps:
     - intent: tanya_kegiatan_event
     - action: action_get_kegiatan_event
-    - action: action_provide_quick_ask
-
-- rule: Ask Event Berita
-  steps:
-    - intent: tanya_berita_event
-    - action: action_get_berita_event
     - action: action_provide_quick_ask
 
 - rule: Ask Event Contact
@@ -207,12 +202,6 @@ rules:
   steps:
     - intent: tanya_lokasi_kelurahan_kampung
     - action: action_get_lokasi_kelurahan_kampung
-    - action: action_provide_quick_ask
-
-- rule: Ask Berita Kampung
-  steps:
-    - intent: tanya_berita_kampung
-    - action: action_get_berita_kampung
     - action: action_provide_quick_ask
 
 - rule: Ask Contact Kampung
