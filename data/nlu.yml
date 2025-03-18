@@ -58,11 +58,8 @@ nlu:
     - apa itu program kampung lingkar kampus?
     - apa itu program klk?
     - apa itu kampung lingkar kampus?
-    - jelaskan tentang program kampung lingkar kampus
     - pengertian program kampung lingkar kampus
-    - ceritakan tentang klk
-    - apa itu yang dimaksud dengan klk
-    - jelaskan tentang klk
+    - jelaskan program kampung lingkar kampus
     - program klk itu apa
     - kampung lingkar kampus itu program apa
     - klk itu program apa sih
@@ -70,6 +67,7 @@ nlu:
 - intent: tanya_sejarah_klk
   examples: |
     - bagaimana sejarah adanya kampung lingkar kampus?
+    - bagaimana sejarah terbentuknya kampung lingkar kampus?
     - sejarah dari klk
     - ceritakan awal mula terbentuknya klk
     - latar belakang terbentuknya kampung lingkar kampus?
@@ -81,11 +79,9 @@ nlu:
   examples: | 
     - sebutkan event-event yang diadakan di sekitar 
     - ada event-event apa di klk
-    - event apa yang diselenggarakan klk
-    - deretan event yang di sekitar kampus universitas brawijaya
+    - event apa di klk
     - event-event kampung lingkar kampus
     - event klk
-    - agenda festival tahunan klk 
     - event-event klk
     - event apa saja di sekitar kampus universitas brawijaya?
 
@@ -95,21 +91,17 @@ nlu:
     - apa saja situs yang ada di sekitar kampus universitas brawijaya?
     - ada cagar budaya apa saja di klk?
     - apa cagar budaya yang ada di klk?
-    - apa saja peninggalan purbakala yang ada di klk?
     - ada situs-situs apa saja di klk?
 
 - intent: tanya_kuliner_klk
   examples: |
-    - apa saja kuliner yang ada di klk?
+    - apa saja kuliner khas yang ada di klk?
     - ada kuliner apa saja di klk?
-    - kuliner apa saja yang ada di sekitar kampus universitas brawijaya?
-    - ada kuliner apa saja di sekitar kampus universitas brawijaya?
+    - kuliner apa saja yang ada di sekitar?
     - [makanan](kategori) apa saja yang ada di klk?
     - ada [makanan](kategori) apa saja di klk?
     - [minuman](kategori) apa saja yang ada di klk?
     - ada [minuman](kategori) apa saja di klk?
-    - [makanan](kategori) apa saja yang ada di sekitar kampus universitas brawijaya?
-    - [minuman](kategori) apa saja yang ada di sekitar kampus universitas brawijaya?
 
 - intent: tanya_layanan_kesehatan_klk
   examples: | 
@@ -125,6 +117,7 @@ nlu:
     - dimana saya bisa mendapatkan informasi seputar program klk?
     - bagaimana cara mendapatkan informasi seputar klk?
     - apa media sosial kampung lingkar kampus
+    - media sosial klk
 
 #DATA EVENT OR FESTIVAL
 - intent: tanya_general_event
@@ -323,7 +316,11 @@ nlu:
     - bagaimana cara mendapatkan informasi event [festival kali brantas](event)?
     - dimana saya bisa mendapatkan informasi event [festival keramik dinoyo](event)?
     - dimana saya bisa mendapatkan update event [bazar kampung kuliner](event)?
-    - update terbaru event [festival kampung cempluk](event)?
+    - update terbaru seputar event [festival kampung cempluk](event)?
+    - update terbaru seputar event [festival kampung budoyo](event)?
+    - update terbaru seputar event [festival kali brantas](event)?
+    - update terbaru seputar event [festival keramik dinoyo](event)?
+    - update terbaru seputar event [bazar kampung kuliner](event)?
 
 # DATA KAMPUNG
 - synonym: "kampung ketawanggede"
@@ -369,7 +366,7 @@ nlu:
     - bagaimana sejarah dari [kampung keramik dinoyo](kampung)?
     - bagaimana sejarah dari [kampung sumbersari](kampung)?
     - sejarah dari [kampung sumbersari](kampung)?
-    - sejarah dari [kampung watugong](kampung)?
+    - sejarah dari [kampung ketwanggede](kampung)?
     - sejarah dari [kampung keramik dinoyo](kampung)
     - sejarah dari [kampung cempluk](kampung)
     - ceritakan asal usul dari [kampung ketawanggede](kampung)?
@@ -453,7 +450,7 @@ nlu:
   examples: |
     - ada situs apa saja di [kampung ketawanggede](kampung)?
     - ada situs apa saja di [kampung keramik dinoyo](kampung)?
-    - ada situs apa saja di [kampung watugong](kampung)?
+    - ada situs apa saja di [kampung cempluk](kampung)?
     - ada cagar budaya atau situs apa saja di [kampung cempluk](kampung)?
     - ada cagar budaya atau situs apa saja di [kampung sumbersari](kampung)?
     - ada cagar budaya atau situs apa saja di [kampung keramik dinoyo](kampung)?
@@ -550,7 +547,7 @@ nlu:
     - apa itu [nasi pecel](kuliner)?
     - apa itu [cenil](kuliner)?
     - apa itu [jamu beras kencur](kuliner)?
-    - apa itu [jamu kunir madu](kuliner)?
+    - apa itu [jamu kunir madu](kuliner)? 
     - jelaskan apa itu [jamu beras kencur](kuliner)?
     - jelaskan apa itu [jamu kunir madu](kuliner)?
     - deskripsikan apa itu [klepon](kuliner)?
@@ -564,32 +561,24 @@ nlu:
     - kuliner apa yang cocok saat [panas](cuaca) seperti sekarang?
     - [makanan](kategori) apa yang cocok saat [dingin](cuaca) saat ini?
     - rekomendasi [minuman](kategori) saat [gerah](cuaca)
-    - kuliner apa yang cocok saat [mendung](cuaca)?
     - rekomendasi kuliner ketika [pagi](cuaca)
-    - apa [makanan](kategori) terbaik untuk [siang](cuaca)?
-    - saya ingin tahu kuliner yang cocok saat [malam](cuaca)
     - apa rekomendasi [makanan](kategori) saat [hujan](cuaca)?
-    - [minuman](kategori) yang pas untuk [sore](cuaca)?
     - rekomendasi kuliner yang cocok untuk cuaca saat ini
     - rekomendasi [minuman](kategori) saat [gerah](cuaca)
     - [makanan](kategori) apa yang cocok saat ini?
     - berikan rekomendasi kuliner untuk cuaca sekarang
     - [minuman](kategori) yang pas untuk [sore](cuaca)?
-    - saya ingin tahu kuliner yang cocok saat [malam](cuaca)
     - apa rekomendasi [makanan](kategori) saat [hujan](cuaca)?
 
 #DATA SITUS
 - intent: tanya_general_situs
   examples: |
     - [situs watugong](situs)?  
-    - [situs punden kalisongo](situs)?
+    - [situs punden kalisongo](situs)
     - [candi badut](situs)?
     - sejarah [situs punden kalisongo](situs)?
     - sejarah [situs watugong](situs)?
     - sejarah [candi badut](situs)?
-    - deskripsi [candi badut](situs)?
-    - deskripsi [situs punden kalisongo](situs)?
-    - deskripsi [situs watugong](situs)
     - saya ingin tahu situs [candi badut](situs)?
     - saya ingin tahu situs [situs punden kalisongo](situs)?
     - saya ingin tahu situs [situs watugong](situs)?
@@ -603,7 +592,6 @@ nlu:
     - lokasi situs [situs punden kalisongo](situs)?
     - dimana lokasi dari [candi badut](situs)?
     - tempat dari [situs punden kalisongo](situs)?
-    - dimana lokasi dari [situs punden kalisongo](situs)?
 
 #DATA LAYANAN KESEHATAN
 - intent: tanya_kategori_layanan_kesehatan
@@ -649,7 +637,6 @@ nlu:
     - lokasi [puskesmas sumbersari](kesehatan)?
     - lokasi [klinik universitas brawijaya](kesehatan)?
     - dimana lokasi [puskesmas sumbersari](kesehatan)?
-    - tempat [klinik daqu sehat](kesehatan)?
     - dimana lokasi [rumah sakit islam unisma](kesehatan)?
 
 - intent: tanya_jam_operasional_layanan_kesehatan
@@ -666,6 +653,7 @@ nlu:
     - dimana dapat menghubungi kontak [klinik universitas brawijaya](kesehatan)
     - kontak terkait [klinik daqu sehat](kesehatan)
     - cara mendaftar periksa di [klinik elfahmi](kesehatan)
+    - cara mendaftar periksa di [puskesmas sumbersari](kesehatan)
     - kontak pendaftaran kunjungan di [rumah sakit islam unisma](kesehatan)
 
 - lookup: situs

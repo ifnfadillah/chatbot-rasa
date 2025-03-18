@@ -1,138 +1,26 @@
 [
   {
-    "text": "agenda festival tahunan klk",
-    "intent": "tanya_event_klk",
-    "intent_prediction": {
-      "name": "tanya_lokasi_event",
-      "confidence": 0.11995444446802139
-    }
-  },
-  {
-    "text": "festival apa yang ada di kampung cempluk?",
-    "intent": "tanya_event_lokasi_kampung",
-    "intent_prediction": {
-      "name": "tanya_kuliner_lokasi_event",
-      "confidence": 0.4481317102909088
-    }
-  },
-  {
-    "text": "apa rekomendasi kuliner saat mendung di kampung cempluk?",
-    "intent": "tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung",
-    "intent_prediction": {
-      "name": "tanya_rekomendasi_kuliner_berdasarkan_cuaca",
-      "confidence": 0.40224653482437134
-    }
-  },
-  {
-    "text": "kuliner apa yang cocok saat ini di kampung ketawanggede?",
-    "intent": "tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung",
-    "intent_prediction": {
-      "name": "tanya_rekomendasi_kuliner_berdasarkan_cuaca",
-      "confidence": 0.4304047226905823
-    }
-  },
-  {
-    "text": "rekomendasi makanan untuk cuaca sekarang",
+    "text": "rekomendasi kuliner yang cocok untuk cuaca saat ini",
     "intent": "tanya_rekomendasi_kuliner_berdasarkan_cuaca",
     "intent_prediction": {
       "name": "tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung",
-      "confidence": 0.4982883632183075
+      "confidence": 0.4154818654060364
     }
   },
   {
-    "text": "klinik untuk mengobati sakit tenggorokan?",
-    "intent": "tanya_jenis_gejala_layanan_kesehatan",
-    "intent_prediction": {
-      "name": "tanya_general_klk",
-      "confidence": 0.527996301651001
-    }
-  },
-  {
-    "text": "apa itu yang dimaksud dengan klk",
-    "intent": "tanya_general_klk",
-    "intent_prediction": {
-      "name": "tanya_layanan_kesehatan_klk",
-      "confidence": 0.17384545505046844
-    }
-  },
-  {
-    "text": "sejarah dari klk",
-    "intent": "tanya_sejarah_klk",
-    "intent_prediction": {
-      "name": "tanya_sejarah_kampung",
-      "confidence": 0.3966461718082428
-    }
-  },
-  {
-    "text": "event-event kampung lingkar kampus",
-    "intent": "tanya_event_klk",
-    "intent_prediction": {
-      "name": "tanya_general_klk",
-      "confidence": 0.46349409222602844
-    }
-  },
-  {
-    "text": "apa saja peninggalan purbakala yang ada di klk?",
-    "intent": "tanya_situs_klk",
-    "intent_prediction": {
-      "name": "tanya_situs_lokasi_kampung",
-      "confidence": 0.3874228298664093
-    }
-  },
-  {
-    "text": "apa rekomendasi makanan saat mendung di event festival kali brantas?",
-    "intent": "tanya_rekomendasi_kuliner_berdasarkan_cuaca_event",
+    "text": "kuliner apa yang cocok saat panas seperti sekarang di kampung ketawanggede?",
+    "intent": "tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung",
     "intent_prediction": {
       "name": "tanya_rekomendasi_kuliner_berdasarkan_cuaca",
-      "confidence": 0.5110127329826355
+      "confidence": 0.782577395439148
     }
   },
   {
-    "text": "saya ingin tahu kuliner yang cocok saat malam",
-    "intent": "tanya_rekomendasi_kuliner_berdasarkan_cuaca",
+    "text": "apa itu cenil?",
+    "intent": "tanya_general_kuliner",
     "intent_prediction": {
-      "name": "tanya_rekomendasi_kuliner_berdasarkan_cuaca_event",
-      "confidence": 0.5227659344673157
-    }
-  },
-  {
-    "text": "tidak",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.19473107159137726
-    }
-  },
-  {
-    "text": "apa saja situs yang ada di sekitar kampus universitas brawijaya?",
-    "intent": "tanya_situs_klk",
-    "intent_prediction": {
-      "name": "tanya_event_klk",
-      "confidence": 0.34674182534217834
-    }
-  },
-  {
-    "text": "layanan kesehatan di klk",
-    "intent": "tanya_layanan_kesehatan_klk",
-    "intent_prediction": {
-      "name": "tanya_layanan_kesehatan_lokasi_kampung",
-      "confidence": 0.845397412776947
-    }
-  },
-  {
-    "text": "rekomendasi kuliner ketika pagi",
-    "intent": "tanya_rekomendasi_kuliner_berdasarkan_cuaca",
-    "intent_prediction": {
-      "name": "tanya_rekomendasi_kuliner_berdasarkan_cuaca_event",
-      "confidence": 0.7193411588668823
-    }
-  },
-  {
-    "text": "dimana lokasi rumah sakit umum bri medika",
-    "intent": "tanya_lokasi_layanan_kesehatan",
-    "intent_prediction": {
-      "name": "tanya_jam_operasional_layanan_kesehatan",
-      "confidence": 0.38876453042030334
+      "name": "tanya_general_event",
+      "confidence": 0.5031121373176575
     }
   },
   {
@@ -140,31 +28,63 @@
     "intent": "tanya_jenis_gejala_layanan_kesehatan",
     "intent_prediction": {
       "name": "tanya_kategori_layanan_kesehatan",
-      "confidence": 0.7751913070678711
+      "confidence": 0.5431958436965942
     }
   },
   {
-    "text": "event apa yang diselenggarakan klk",
-    "intent": "tanya_event_klk",
+    "text": "dimana lokasi rumah sakit umum bri medika",
+    "intent": "tanya_lokasi_layanan_kesehatan",
     "intent_prediction": {
-      "name": "tanya_tanggal_event",
-      "confidence": 0.8015315532684326
+      "name": "tanya_jam_operasional_layanan_kesehatan",
+      "confidence": 0.3478974997997284
+    }
+  },
+  {
+    "text": "layanan kesehatan di klk",
+    "intent": "tanya_layanan_kesehatan_klk",
+    "intent_prediction": {
+      "name": "tanya_layanan_kesehatan_lokasi_kampung",
+      "confidence": 0.30884408950805664
+    }
+  },
+  {
+    "text": "apa itu kampung lingkar kampus?",
+    "intent": "tanya_general_klk",
+    "intent_prediction": {
+      "name": "tanya_general_event",
+      "confidence": 0.21282562613487244
+    }
+  },
+  {
+    "text": "acara apa saja yang ada di event bazar kampung kuliner?",
+    "intent": "tanya_kegiatan_event",
+    "intent_prediction": {
+      "name": "tanya_kuliner_lokasi_event",
+      "confidence": 0.6704249382019043
     }
   },
   {
     "text": "kuliner apa yang cocok saat panas seperti sekarang?",
     "intent": "tanya_rekomendasi_kuliner_berdasarkan_cuaca",
     "intent_prediction": {
-      "name": "tanya_rekomendasi_kuliner_berdasarkan_cuaca_event",
-      "confidence": 0.4961179196834564
+      "name": "tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung",
+      "confidence": 0.5331901907920837
     }
   },
   {
-    "text": "tempat klinik daqu sehat?",
-    "intent": "tanya_lokasi_layanan_kesehatan",
+    "text": "event apa saja di sekitar kampus universitas brawijaya?",
+    "intent": "tanya_event_klk",
     "intent_prediction": {
-      "name": "tanya_kategori_layanan_kesehatan",
-      "confidence": 0.32886865735054016
+      "name": "tanya_situs_klk",
+      "confidence": 0.7744715213775635
+    }
+  },
+  {
+    "text": "rekomendasi makanan yang cocok untuk cuaca saat ini di kampung cempluk?",
+    "intent": "tanya_rekomendasi_kuliner_berdasarkan_cuaca_kampung",
+    "intent_prediction": {
+      "name": "tanya_rekomendasi_kuliner_berdasarkan_cuaca",
+      "confidence": 0.6096155643463135
     }
   }
 ]
